@@ -1,5 +1,6 @@
 $primary: #32C0EE;
 $secondary: #2488B7;
+$secondary-dark: #1D76A0;
 $tertiary: #3DCCFA;
 $quarternary: #3E6977;
 $black: #000000;
@@ -14,6 +15,7 @@ $theme-colors: () !default;
 $theme-colors: map-merge((
             "primary": $primary,
             "secondary": $secondary,
+            "secondary-dark": $secondary-dark,
             "tertiary": $tertiary,
             "quarternary": $quarternary,
             "black": $black,
@@ -31,7 +33,9 @@ $font-sizes: (
     58: 58px,
     54: 54px,
     51: 51px,
+    45: 45px,
     29: 29px,
+    20: 20px,
     18: 1.125rem,
     16: 1rem,
     14: 0.875rem    
@@ -140,6 +144,13 @@ $utilities: map-merge((
         values: (
             1: 0.01em,
             2: -0.2em
+        )
+    ),
+    "opacity": (
+        property: opacity,
+        class: opacity,
+        values: (
+            "0_76": 0.76,
         )
     )
 ), $utilities);

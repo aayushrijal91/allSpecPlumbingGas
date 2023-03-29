@@ -19,11 +19,14 @@ body {
     @include media-breakpoint-down(sm) {
         font-size: 0.875rem;
     }
+}
 
-    &:focus {
-        box-shadow: none;
-        outline: 0;
-    }
+input:focus,
+select:focus,
+button:focus,
+.btn:focus {
+    box-shadow: none;
+    outline: 0;
 }
 
 .text-italic {
@@ -32,15 +35,6 @@ body {
 
 .text-decoration-none {
     text-decoration: none;
-}
-
-//line-height
-.line-height-1 {
-    line-height: 1;
-}
-
-.line-height-2 {
-    line-height: 2;
 }
 
 //Go To Top

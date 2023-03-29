@@ -307,6 +307,301 @@
     </div>
 </section>
 
+<div class="container mt-7">
+    <section class="services">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-8">
+                        <div class="fs-54 lh-1 text-primary fw-800">Affordable plumbing <span class="text-white">solutions for every budget.</span></div>
+                    </div>
+                    <div class="col-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn btn-primary rounded-pill text-white py-3 px-md-5">
+                            Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-navigation rounded-pill my-5">
+                    <button type="button" for="service_general_plumbing" class="navi-link active">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" />
+                        </svg>
+                        General Plumbing
+                    </button>
+                    <button type="button" for="service_emergency" class="navi-link">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_23_80)">
+                                <path d="M14.5319 2.43504C13.7911 1.68957 12.9097 1.09841 11.9389 0.695783C10.968 0.293153 9.92697 0.087042 8.87595 0.0893751H8.87228C6.75113 0.0893749 4.7168 0.931772 3.21661 2.43134C1.71641 3.93091 0.873168 5.96489 0.872284 8.08604C0.872284 8.26285 0.942522 8.43242 1.06755 8.55745C1.19257 8.68247 1.36214 8.75271 1.53895 8.75271C1.71576 8.75271 1.88533 8.68247 2.01036 8.55745C2.13538 8.43242 2.20562 8.26285 2.20562 8.08604C2.2065 6.31851 2.90927 4.62367 4.15942 3.37415C5.40956 2.12463 7.10475 1.42271 8.87228 1.42271H8.87562C10.6437 1.42311 12.3393 2.12587 13.5892 3.37639C14.8392 4.62691 15.5412 6.32277 15.5408 8.09088C15.5404 9.85898 14.8376 11.5545 13.5871 12.8045C12.3366 14.0544 10.6407 14.7564 8.87262 14.756H8.86962C7.60015 14.7513 6.35833 14.3848 5.28962 13.6997L6.37428 12.7797C6.42056 12.7406 6.45529 12.6896 6.47473 12.6322C6.49418 12.5748 6.49761 12.5131 6.48465 12.4539C6.47169 12.3947 6.44283 12.3402 6.40119 12.2961C6.35954 12.2521 6.30668 12.2203 6.24828 12.204L2.45295 11.147C2.40003 11.1323 2.34427 11.1308 2.29065 11.1428C2.23702 11.1548 2.18719 11.1798 2.14559 11.2157C2.10399 11.2516 2.07191 11.2972 2.05219 11.3485C2.03248 11.3998 2.02576 11.4552 2.03262 11.5097L2.51862 15.3744C2.5261 15.434 2.54955 15.4904 2.58649 15.5378C2.62342 15.5852 2.67246 15.6217 2.72843 15.6435C2.7844 15.6652 2.84522 15.6715 2.90446 15.6616C2.96369 15.6516 3.01914 15.6259 3.06495 15.587L4.22762 14.6007C5.58297 15.5659 7.20473 16.0861 8.86862 16.0894H8.87228C10.4543 16.0894 12.0007 15.6205 13.3162 14.7417C14.6317 13.863 15.6571 12.614 16.2629 11.1526C16.8686 9.69122 17.0275 8.08303 16.7194 6.53135C16.4113 4.97967 15.6501 3.55416 14.5319 2.43504Z" />
+                                <path d="M13.7056 8.58602C13.8382 8.58602 13.9654 8.53334 14.0592 8.43957C14.1529 8.3458 14.2056 8.21863 14.2056 8.08602C14.2056 7.95341 14.1529 7.82623 14.0592 7.73247C13.9654 7.6387 13.8382 7.58602 13.7056 7.58602L9.51662 7.44169L9.37229 3.25269C9.37229 3.12008 9.31961 2.9929 9.22584 2.89913C9.13207 2.80536 9.00489 2.75269 8.87229 2.75269C8.73968 2.75269 8.6125 2.80536 8.51873 2.89913C8.42497 2.9929 8.37229 3.12008 8.37229 3.25269L8.20562 8.08602C8.20562 8.26283 8.27586 8.4324 8.40088 8.55742C8.52591 8.68245 8.69548 8.75269 8.87229 8.75269L13.7056 8.58602Z" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_23_80">
+                                    <rect width="16" height="16" fill="white" transform="translate(0.872284 0.0859375)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        24/7 Emergency
+                    </button>
+                    <button type="button" for="service_leaking_pipes" class="navi-link">
+                        <svg width="15" height="16" viewBox="0 0 15 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2635 7.75936H8.93014C8.7458 7.75936 8.5968 7.90869 8.5968 8.09269V10.0927C8.5968 10.644 8.14814 11.0927 7.5968 11.0927C7.04547 11.0927 6.5968 10.644 6.5968 10.0927V6.42603H2.5968V10.0927C2.5968 13.2174 5.1388 15.7594 8.26347 15.7594H8.93014C12.0548 15.7594 14.5968 13.2174 14.5968 10.0927V8.09269C14.5968 7.90869 14.4478 7.75936 14.2635 7.75936Z" />
+                            <path d="M7.5968 5.09269H5.93014V2.75936C5.93014 1.47269 4.88314 0.426025 3.5968 0.426025H0.930135C0.745802 0.426025 0.596802 0.575359 0.596802 0.759359V2.75936C0.596802 2.94336 0.745802 3.09269 0.930135 3.09269H2.93014C3.11414 3.09269 3.26347 3.24236 3.26347 3.42603V5.09269H1.5968C1.41247 5.09269 1.26347 5.24203 1.26347 5.42603C1.26347 5.61003 1.41247 5.75936 1.5968 5.75936H7.5968C7.78114 5.75936 7.93014 5.61003 7.93014 5.42603C7.93014 5.24203 7.78114 5.09269 7.5968 5.09269Z" />
+                        </svg>
+                        Burst & Leaking Pipes
+                    </button>
+                    <button type="button" for="service_blockages" class="navi-link">
+                        <svg width="15" height="16" viewBox="0 0 15 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2635 7.75936H8.93014C8.7458 7.75936 8.5968 7.90869 8.5968 8.09269V10.0927C8.5968 10.644 8.14814 11.0927 7.5968 11.0927C7.04547 11.0927 6.5968 10.644 6.5968 10.0927V6.42603H2.5968V10.0927C2.5968 13.2174 5.1388 15.7594 8.26347 15.7594H8.93014C12.0548 15.7594 14.5968 13.2174 14.5968 10.0927V8.09269C14.5968 7.90869 14.4478 7.75936 14.2635 7.75936Z" />
+                            <path d="M7.5968 5.09269H5.93014V2.75936C5.93014 1.47269 4.88314 0.426025 3.5968 0.426025H0.930135C0.745802 0.426025 0.596802 0.575359 0.596802 0.759359V2.75936C0.596802 2.94336 0.745802 3.09269 0.930135 3.09269H2.93014C3.11414 3.09269 3.26347 3.24236 3.26347 3.42603V5.09269H1.5968C1.41247 5.09269 1.26347 5.24203 1.26347 5.42603C1.26347 5.61003 1.41247 5.75936 1.5968 5.75936H7.5968C7.78114 5.75936 7.93014 5.61003 7.93014 5.42603C7.93014 5.24203 7.78114 5.09269 7.5968 5.09269Z" />
+                        </svg>
+                        Blockages & CCTV Drain Inspections
+                    </button>
+                    <button type="button" for="service_gas_safety" class="navi-link">
+                        <svg width="12" height="15" viewBox="0 0 12 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.79175 0.153975C5.722 0.113226 5.64342 0.0899816 5.56272 0.0862323C5.48203 0.0824829 5.40163 0.09834 5.32841 0.132447C5.25518 0.166553 5.19131 0.217893 5.14226 0.282074C5.0932 0.346255 5.06043 0.421364 5.04675 0.500975C4.84676 1.65876 4.37065 2.75128 3.65875 3.68598C3.41258 3.9817 3.14521 4.2591 2.85875 4.51598C2.14687 5.06057 1.56418 5.7558 1.15239 6.5519C0.740594 7.348 0.509875 8.22529 0.476746 9.12098C0.478736 10.118 0.744915 11.0968 1.24818 11.9575C1.75145 12.8182 2.47382 13.5302 3.34175 14.021C3.41677 14.0635 3.50151 14.0859 3.58775 14.086C3.71451 14.0863 3.83665 14.0384 3.92948 13.9521C4.0223 13.8658 4.07887 13.7474 4.08775 13.621C4.10967 13.2932 4.20258 12.974 4.36005 12.6857C4.51753 12.3973 4.7358 12.1466 4.99975 11.951C5.54393 11.5961 5.99519 11.1161 6.31575 10.551C6.80899 10.9216 7.22376 11.3865 7.53601 11.9186C7.84825 12.4508 8.05176 13.0396 8.13475 13.651C8.14527 13.7322 8.1756 13.8097 8.22308 13.8764C8.27055 13.9432 8.33371 13.9973 8.407 14.034C8.48029 14.0706 8.56146 14.0887 8.64337 14.0866C8.72528 14.0845 8.80542 14.0623 8.87675 14.022C9.74467 13.5312 10.467 12.8192 10.9703 11.9585C11.4736 11.0978 11.7398 10.119 11.7417 9.12198C11.7407 5.53298 9.68375 2.43398 5.79175 0.153975Z" />
+                        </svg>
+                        Gas Safety Checks
+                    </button>
+                </div>
+
+                <div class="tab-content">
+                    <div class="custom_tab_content active" id="service_general_plumbing">
+                        <div class="row justify-content-between gx-xl-5">
+                            <div class="col-lg-6">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_404_14)">
+                                        <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                    </g>
+                                    <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                    <defs>
+                                        <clipPath id="clip0_404_14">
+                                            <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="fs-18 py-3">General Plumbing</div>
+                                <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                    <div class="row align-items-center gx-2">
+                                        <div class="col">
+                                            <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="service_cta">
+                                    <div class="macbook_action_buttons">
+                                        <div class="red"></div>
+                                        <div class="yellow"></div>
+                                        <div class="green"></div>
+                                    </div>
+                                    <div class="inner">
+                                        <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
+                                        <div class="cta">
+                                            <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom_tab_content" id="service_emergency">
+                        <div class="row justify-content-between gx-xl-5">
+                            <div class="col-lg-6">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_404_14)">
+                                        <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                    </g>
+                                    <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                    <defs>
+                                        <clipPath id="clip0_404_14">
+                                            <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="fs-18 py-3">24/7 Emergency</div>
+                                <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                    <div class="row align-items-center gx-2">
+                                        <div class="col">
+                                            <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="service_cta">
+                                    <div class="macbook_action_buttons">
+                                        <div class="red"></div>
+                                        <div class="yellow"></div>
+                                        <div class="green"></div>
+                                    </div>
+                                    <div class="inner">
+                                        <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
+                                        <div class="cta">
+                                            <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom_tab_content" id="service_leaking_pipes">
+                        <div class="row justify-content-between gx-xl-5">
+                            <div class="col-lg-6">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_404_14)">
+                                        <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                    </g>
+                                    <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                    <defs>
+                                        <clipPath id="clip0_404_14">
+                                            <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="fs-18 py-3">Burst & Leaking Pipes</div>
+                                <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                    <div class="row align-items-center gx-2">
+                                        <div class="col">
+                                            <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="service_cta">
+                                    <div class="macbook_action_buttons">
+                                        <div class="red"></div>
+                                        <div class="yellow"></div>
+                                        <div class="green"></div>
+                                    </div>
+                                    <div class="inner">
+                                        <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
+                                        <div class="cta">
+                                            <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom_tab_content" id="service_blockages">
+                        <div class="row justify-content-between gx-xl-5">
+                            <div class="col-lg-6">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_404_14)">
+                                        <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                    </g>
+                                    <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                    <defs>
+                                        <clipPath id="clip0_404_14">
+                                            <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="fs-18 py-3">Blockages & CCTV Drain Inspections</div>
+                                <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                    <div class="row align-items-center gx-2">
+                                        <div class="col">
+                                            <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="service_cta">
+                                    <div class="macbook_action_buttons">
+                                        <div class="red"></div>
+                                        <div class="yellow"></div>
+                                        <div class="green"></div>
+                                    </div>
+                                    <div class="inner">
+                                        <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
+                                        <div class="cta">
+                                            <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom_tab_content" id="service_gas_safety">
+                        <div class="row justify-content-between gx-xl-5">
+                            <div class="col-lg-6">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_404_14)">
+                                        <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                    </g>
+                                    <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                    <defs>
+                                        <clipPath id="clip0_404_14">
+                                            <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="fs-18 py-3">Gas Safety Checks</div>
+                                <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                    <div class="row align-items-center gx-2">
+                                        <div class="col">
+                                            <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="service_cta">
+                                    <div class="macbook_action_buttons">
+                                        <div class="red"></div>
+                                        <div class="yellow"></div>
+                                        <div class="green"></div>
+                                    </div>
+                                    <div class="inner">
+                                        <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
+                                        <div class="cta">
+                                            <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 <footer>
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">

@@ -29,10 +29,15 @@ $("#client-slider").slick({
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    autoplay: true,  
+    autoplay: true,
 });
 
-$('.inspection_slider').on('click', function() {
-    $('.inspection_slider').removeClass('active');
+$('button.navi-link').on('click', function () {
+    $('button.navi-link').removeClass('active');
     $(this).addClass('active');
-})
+
+    let tabId = $(this).attr('for');
+
+    $('.custom_tab_content').removeClass('active').hide();
+    $(`#${tabId}`).fadeIn();
+});
