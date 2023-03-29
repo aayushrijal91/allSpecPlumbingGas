@@ -1,0 +1,172 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    background: imgUrl('flame.png') left bottom $primary;
+
+    .banner {
+        padding: 16px 0 52px;
+
+        .gradient-line {
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(270deg, #2998C7 -0.71%, rgba(36, 136, 183, 0) 97.7%);
+        }
+
+        .banner_box_1 {
+            background: $white;
+            border-radius: 25px;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1;
+            color: $primary;
+            padding: 44px 44px 26px;
+            position: relative;
+            margin: 54px 0 50px;
+
+            .cheque {
+                width: 69px;
+                height: 69px;
+                background: $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 8px solid $primary;
+                border-radius: 50%;
+                position: absolute;
+                top: -30%;
+            }
+        }
+
+        .cta-card {
+            height: 140px;
+            width: 140px;
+            border-radius: 50%;
+            background: $primary;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            font-size: 1rem;
+            border: 6.75263px solid $white;
+            line-height: 1;
+            text-align: center;
+            gap: 10px;
+            padding: 16px;
+        }
+
+        .inspection_slider {
+            min-height: 576px;
+            width: 522px;
+            border-radius: 33px;
+            padding: 20px 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            &.flame_1, &.flame_3 {
+                background: imgUrl('dotted-flame-slider.png') center bottom $secondary;
+                background-size: contain;
+            }
+
+            &.flame_1 {
+                position: relative;
+                z-index: 3;
+            }
+            
+            &.flame_2 {
+                position: absolute;
+                top: 0;
+                background: imgUrl('dotted-flame-slider.png') center bottom $tertiary;
+                background-size: contain;
+                right: 13%;
+                transform: scale(0.9);
+                z-index: 2;
+            }
+
+            &.flame_3 {
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: scale(0.8);
+                z-index: 1;
+            }
+        }
+    }
+}
+
+section.form {
+    padding: 160px 0;
+
+    .form_box_wrapper {
+        border-radius: 30px;
+        overflow: hidden;
+        background: imgUrl('form.jpg');
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        align-items: end;
+
+        .form_box {
+            background: $white;
+            width: 100%;
+            border-radius: 30px;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1;
+            padding: 44px 44px 26px;
+            position: relative;
+    
+            .cheque {
+                width: 69px;
+                height: 69px;
+                background: $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 8px solid #d9d5d0;
+                border-radius: 50%;
+                position: absolute;
+                top: -45%;
+            }
+        }
+    }
+
+    form {
+        .form-control {
+            border-radius: 30px;
+            height: 80px;
+            border: 0;
+            background: $light;
+            padding: 8px 42px;
+            color: $black;
+            font-size: 1.125rem;
+
+            &::placeholder {
+                color: $quarternary;
+            }
+
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+
+        button {
+            background: $primary !important;
+        }
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
