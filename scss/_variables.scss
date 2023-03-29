@@ -5,6 +5,7 @@ $quarternary: #3E6977;
 $black: #000000;
 $white: #ffffff;
 $light: #f3f1f1;
+$light-blue: #D8EEF6;
 $dark: #3E6977;
 $grey: #d9d9d9;
 
@@ -18,6 +19,7 @@ $theme-colors: map-merge((
             "black": $black,
             "white": $white,
             "light": $light,
+            "light-blue": $light-blue,
             "dark": $dark,
             "grey": $grey,
         ),
@@ -27,6 +29,7 @@ $theme-colors: map-merge((
 $font-sizes: (
     64: 64px,
     58: 58px,
+    54: 54px,
     51: 51px,
     29: 29px,
     18: 1.125rem,

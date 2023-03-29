@@ -162,6 +162,22 @@ section.form {
     }
 }
 
+section.about {
+    .about_box {
+        border-radius: 70px;    
+        background: imgUrl('about_flame.png') left top $light-blue;
+
+        &.contain {
+            background-size: contain;
+        }
+        
+        .person-img {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}
+
 footer {
     font-size: 0.875rem;
     background-color: #221f1f;
