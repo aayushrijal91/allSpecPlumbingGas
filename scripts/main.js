@@ -41,3 +41,19 @@ $('button.navi-link').on('click', function () {
     $(this).parents('.custom_tab').find('.tab-content .custom_tab_content').removeClass('active').hide();
     $(`#${tabId}`).fadeIn();
 });
+
+function initNavigationSlick() {
+    if ($(document).width() <= 1200) {
+        $('.tab-navigation').slick({
+            slidesToShow: 1,
+            slidesToScroll: true,
+            variableWidth: true,
+            arrows: false,
+            infinite: false
+        });
+    }
+}
+
+initNavigationSlick();
+
+$(window).on('resize', function () { initNavigationSlick() });

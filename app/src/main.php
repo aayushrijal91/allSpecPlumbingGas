@@ -229,7 +229,7 @@
             </div>
         </div>
 
-        <div class="row pt-md-5 gx-5 gy-3">
+        <div class="row pt-md-5 gx-md-5 gy-3">
             <div class="col-lg-6">
                 <div class="form_box_wrapper">
                     <div class="form_box">

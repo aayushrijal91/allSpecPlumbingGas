@@ -307,6 +307,7 @@ section.services {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        overflow: hidden;
 
         button.navi-link {
             padding: 19px 24px;
@@ -527,6 +528,7 @@ section.integrity {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        overflow: hidden;
 
         button.navi-link {
             padding: 16px 24px;
