@@ -1,5 +1,22 @@
 <header>
-    <div class="navigation py-3">
+    <div class="mobile-navigation d-md-none py-2 bg-primary-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col row align-items-center g-1">
+                    <div class="col-auto"><?= renderImg('thumbsup.png', 'icons') ?></div>
+                    <div class=" col fs-14 lh-1 text-white">
+                        <div class="fw-700">Expert solutions,</div> exceptional service
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5 fs-14">
+                        Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation py-3 d-none d-md-block">
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-auto">
@@ -45,19 +62,24 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-5 text-white">
-                    <h1 class="font-articulat-heavy fs-58 lh-1 fw-800">Reliable plumbing solutions, <span class="text-secondary">every time</span></h1>
-                    <div class="fs-18 pb-3">Pellentesque habitant morbi tristique senectus et netus et malesuada.</div>
+                    <div class="d-md-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
+                    <h1 class="heading font-articulat-heavy fs-58 lh-1 fw-800">Reliable plumbing solutions, <span class="text-secondary">every time</span></h1>
+                    <div class="fs-18 pb-3 d-none d-md-block">Local Melbourne plumbing experts with unbeatable rates</div>
                     <div class="row justify-content-between py-4 algin-items-center">
                         <div class="col-4">
-                            <div class="">Clients & Brands</div>
+                            <div class="d-none d-md-block">Clients & Brands</div>
                             <div id="client-slider">
                                 <div><?= renderImg('client-1.png', 'logo') ?></div>
                                 <div><?= renderImg('client-2.png', 'logo') ?></div>
                                 <div><?= renderImg('client-3.png', 'logo') ?></div>
                                 <div><?= renderImg('client-4.png', 'logo') ?></div>
                             </div>
+                            <div class="d-md-none fs-13 fw-700">Clients & Brands</div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-7 d-md-none fs-14">
+                            Local Melbourne plumbing experts with unbeatable rates
+                        </div>
+                        <div class="col-8 d-none d-md-block">
                             <div class="gradient-line"></div>
                             <div class="py-3 text-center text-white fs-29 lh-1">
                                 Refer a friend and get
@@ -67,12 +89,21 @@
                         </div>
                     </div>
 
-                    <div class="banner_box_1">
+                    <div class="d-md-none pb-5">
+                        <div class="gradient-line"></div>
+                        <div class="py-3 text-center text-white fs-29 lh-1">
+                            Refer a friend and get
+                            <div class="text-secondary fw-700">$65 off next plumbing job</div>
+                        </div>
+                        <div class="gradient-line"></div>
+                    </div>
+
+                    <div class="banner_box_1 d-none d-md-block">
                         <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                         CCTV Drain Inspections Starting <div class="text-secondary">From $99*</div>
                     </div>
 
-                    <div class="row justify-content-between position-absolute">
+                    <div class="row justify-content-between position-absolute d-none d-md-flex">
                         <div class="col-auto">
                             <div class="cta-card">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,36 +115,20 @@
                         <div class="col-auto">
                             <div class="cta-card">
                                 <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_267_30)">
-                                        <path d="M21.9641 27H1.71405C0.70155 27 0.0265503 26.325 0.0265503 25.3125V1.6875C0.0265503 0.675 0.70155 0 1.71405 0H21.9641V3.375H3.40155V23.625H20.2766V21.9375H23.6516V25.3125C23.6516 26.325 22.9766 27 21.9641 27Z" fill="white" />
-                                        <path d="M27.0266 10.125C27.0266 7.25625 24.8328 5.0625 21.9641 5.0625C19.0953 5.0625 16.9016 7.25625 16.9016 10.125C16.9016 11.6438 17.5766 12.9937 18.5891 13.8375V20.25L21.9641 16.875L25.3391 20.25V13.8375C26.3516 12.9937 27.0266 11.6438 27.0266 10.125Z" fill="white" />
-                                        <path d="M13.5266 8.4375H6.77655V11.8125H13.5266V8.4375Z" fill="white" />
-                                        <path d="M15.2141 15.1875H6.77655V18.5625H15.2141V15.1875Z" fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_267_30">
-                                            <rect width="27" height="27" fill="white" transform="translate(0.0265503)" />
-                                        </clipPath>
-                                    </defs>
+                                    <path d="M21.9641 27H1.71405C0.70155 27 0.0265503 26.325 0.0265503 25.3125V1.6875C0.0265503 0.675 0.70155 0 1.71405 0H21.9641V3.375H3.40155V23.625H20.2766V21.9375H23.6516V25.3125C23.6516 26.325 22.9766 27 21.9641 27Z" fill="white" />
+                                    <path d="M27.0266 10.125C27.0266 7.25625 24.8328 5.0625 21.9641 5.0625C19.0953 5.0625 16.9016 7.25625 16.9016 10.125C16.9016 11.6438 17.5766 12.9937 18.5891 13.8375V20.25L21.9641 16.875L25.3391 20.25V13.8375C26.3516 12.9937 27.0266 11.6438 27.0266 10.125Z" fill="white" />
+                                    <path d="M13.5266 8.4375H6.77655V11.8125H13.5266V8.4375Z" fill="white" />
+                                    <path d="M15.2141 15.1875H6.77655V18.5625H15.2141V15.1875Z" fill="white" />
                                 </svg>
-
                                 <div><span class="fw-700">Licensed</span> &<br>Injured</div>
                             </div>
                         </div>
                         <div class="col-auto">
                             <div class="cta-card">
                                 <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_267_43)">
-                                        <path d="M14.2681 28C11.4992 28 8.79244 27.1789 6.49015 25.6406C4.18786 24.1022 2.39345 21.9157 1.33382 19.3576C0.274193 16.7994 -0.00305331 13.9845 0.53714 11.2687C1.07733 8.55301 2.4107 6.05845 4.36864 4.10051C6.32657 2.14258 8.82114 0.809206 11.5369 0.269012C14.2526 -0.271181 17.0675 0.006066 19.6257 1.06569C22.1839 2.12532 24.3704 3.91973 25.9087 6.22202C27.4471 8.52431 28.2681 11.2311 28.2681 14C28.2644 17.7119 26.7882 21.2707 24.1635 23.8954C21.5388 26.5201 17.98 27.9963 14.2681 28ZM14.2681 4.66667C12.4222 4.66667 10.6177 5.21406 9.08281 6.23962C7.54795 7.26518 6.35168 8.72285 5.64526 10.4283C4.93884 12.1337 4.75401 14.0104 5.11414 15.8209C5.47427 17.6313 6.36318 19.2944 7.66847 20.5997C8.97376 21.905 10.6368 22.7939 12.4473 23.154C14.2578 23.5141 16.1344 23.3293 17.8398 22.6229C19.5453 21.9165 21.003 20.7202 22.0285 19.1853C23.0541 17.6505 23.6015 15.846 23.6015 14C23.6015 11.5247 22.6181 9.15068 20.8678 7.40034C19.1175 5.65 16.7435 4.66667 14.2681 4.66667Z" fill="white" />
-                                        <path d="M20.1015 15.1667H14.2681C13.9587 15.1667 13.662 15.0438 13.4432 14.825C13.2244 14.6062 13.1015 14.3094 13.1015 14V8.16667C13.1015 7.85725 13.2244 7.5605 13.4432 7.34171C13.662 7.12292 13.9587 7 14.2681 7C14.5775 7 14.8743 7.12292 15.0931 7.34171C15.3119 7.5605 15.4348 7.85725 15.4348 8.16667V12.8333H20.1015C20.4109 12.8333 20.7076 12.9563 20.9264 13.175C21.1452 13.3938 21.2681 13.6906 21.2681 14C21.2681 14.3094 21.1452 14.6062 20.9264 14.825C20.7076 15.0438 20.4109 15.1667 20.1015 15.1667Z" fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_267_43">
-                                            <rect width="28" height="28" fill="white" transform="translate(0.268127)" />
-                                        </clipPath>
-                                    </defs>
+                                    <path d="M14.2681 28C11.4992 28 8.79244 27.1789 6.49015 25.6406C4.18786 24.1022 2.39345 21.9157 1.33382 19.3576C0.274193 16.7994 -0.00305331 13.9845 0.53714 11.2687C1.07733 8.55301 2.4107 6.05845 4.36864 4.10051C6.32657 2.14258 8.82114 0.809206 11.5369 0.269012C14.2526 -0.271181 17.0675 0.006066 19.6257 1.06569C22.1839 2.12532 24.3704 3.91973 25.9087 6.22202C27.4471 8.52431 28.2681 11.2311 28.2681 14C28.2644 17.7119 26.7882 21.2707 24.1635 23.8954C21.5388 26.5201 17.98 27.9963 14.2681 28ZM14.2681 4.66667C12.4222 4.66667 10.6177 5.21406 9.08281 6.23962C7.54795 7.26518 6.35168 8.72285 5.64526 10.4283C4.93884 12.1337 4.75401 14.0104 5.11414 15.8209C5.47427 17.6313 6.36318 19.2944 7.66847 20.5997C8.97376 21.905 10.6368 22.7939 12.4473 23.154C14.2578 23.5141 16.1344 23.3293 17.8398 22.6229C19.5453 21.9165 21.003 20.7202 22.0285 19.1853C23.0541 17.6505 23.6015 15.846 23.6015 14C23.6015 11.5247 22.6181 9.15068 20.8678 7.40034C19.1175 5.65 16.7435 4.66667 14.2681 4.66667Z" fill="white" />
+                                    <path d="M20.1015 15.1667H14.2681C13.9587 15.1667 13.662 15.0438 13.4432 14.825C13.2244 14.6062 13.1015 14.3094 13.1015 14V8.16667C13.1015 7.85725 13.2244 7.5605 13.4432 7.34171C13.662 7.12292 13.9587 7 14.2681 7C14.5775 7 14.8743 7.12292 15.0931 7.34171C15.3119 7.5605 15.4348 7.85725 15.4348 8.16667V12.8333H20.1015C20.4109 12.8333 20.7076 12.9563 20.9264 13.175C21.1452 13.3938 21.2681 13.6906 21.2681 14C21.2681 14.3094 21.1452 14.6062 20.9264 14.825C20.7076 15.0438 20.4109 15.1667 20.1015 15.1667Z" fill="white" />
                                 </svg>
-
                                 <div><span class="fw-700">24 Hour</span><br>Response Time</div>
                             </div>
                         </div>
@@ -133,21 +148,70 @@
                         <div>
                             <div class="text-white fs-51 fw-700 lh-1">Free <span class="text-primary">Home Inspection</span></div>
                             <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-xl-5">Contact Us</a>
+                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
                         </div>
                     </div>
                     <div class="inspection_slider flame_2">
                         <div>
                             <div class="text-secondary fs-51 fw-700 lh-1">Ph Water<br> Testing <span class="text-white">For $60</span></div>
                             <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-xl-5">Contact Us</a>
+                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
                         </div>
                     </div>
                     <div class="inspection_slider flame_3">
                         <div>
                             <div class="text-white fs-51 fw-700 lh-1">Free <span class="text-primary">Roof Inspection</span></div>
                             <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-xl-5">Contact Us</a>
+                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner_box_1 d-md-none">
+                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
+                <div>
+                    Drain Blockages + <div class="text-secondary">CCTV For $295</div>
+                </div>
+            </div>
+            <div class="position-relative w-100">
+                <div class="row justify-content-between position-absolute w-100 d-md-none gx-0">
+                    <div class="col-auto">
+                        <div class="cta-card">
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4012 4.55898C17.2536 4.55898 13.8235 2.7753 11.547 1.01189C11.1113 0.672386 10.51 0.672386 10.0743 1.01189C7.79778 2.7753 4.36768 4.55898 2.22003 4.55898C1.5426 4.55898 0.992798 5.12525 0.992798 5.8258C0.992798 12.8997 4.30754 18.2621 10.3271 20.925C10.4817 20.9934 10.6462 21.0276 10.8106 21.0276C10.9751 21.0276 11.1395 20.9934 11.2942 20.925C17.3137 18.2621 20.6285 12.8997 20.6285 5.8258C20.6285 5.12525 20.0787 4.55898 19.4012 4.55898ZM10.8106 18.3723V10.8931H4.20323C3.81297 9.68705 3.56384 8.3835 3.48039 6.9748C5.84649 6.56308 8.6458 5.12271 10.8106 3.58353V10.8931H17.418C16.3405 14.2299 14.1168 16.7749 10.8106 18.3723Z" fill="white" />
+                            </svg>
+                            <div><span class="fw-700">Life Time</span><br>Warranty</div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="cta-card">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.7034 17.7606H1.87686C1.23553 17.7606 0.807983 17.333 0.807983 16.6917V1.72745C0.807983 1.08612 1.23553 0.658569 1.87686 0.658569H14.7034V2.79632H2.94574V15.6228H13.6345V14.554H15.7723V16.6917C15.7723 17.333 15.3447 17.7606 14.7034 17.7606Z" fill="white" />
+                                <path d="M17.91 7.0718C17.91 5.25471 16.5204 3.86517 14.7033 3.86517C12.8862 3.86517 11.4967 5.25471 11.4967 7.0718C11.4967 8.03379 11.9243 8.88889 12.5656 9.42333V13.4851L14.7033 11.3473L16.8411 13.4851V9.42333C17.4824 8.88889 17.91 8.03379 17.91 7.0718Z" fill="white" />
+                                <path d="M9.35888 6.00293H5.08337V8.14068H9.35888V6.00293Z" fill="white" />
+                                <path d="M10.4278 10.2784H5.08337V12.4162H10.4278V10.2784Z" fill="white" />
+                            </svg>
+
+
+                            <div><span class="fw-700">Licensed</span> &<br>Injured</div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="cta-card">
+                            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.90703 18.394C7.15316 18.394 5.43868 17.8739 3.98039 16.8995C2.5221 15.9251 1.3855 14.5402 0.714325 12.9198C0.0431489 11.2995 -0.132461 9.51645 0.209701 7.79628C0.551864 6.07612 1.39643 4.49604 2.6366 3.25587C3.87678 2.01569 5.45685 1.17113 7.17702 0.828964C8.89719 0.486801 10.6802 0.662412 12.3006 1.33359C13.9209 2.00476 15.3059 3.14136 16.2803 4.59965C17.2547 6.05794 17.7747 7.77242 17.7747 9.52629C17.7724 11.8774 16.8374 14.1316 15.1749 15.7941C13.5123 17.4566 11.2582 18.3917 8.90703 18.394ZM8.90703 3.61448C7.73778 3.61448 6.59479 3.9612 5.6226 4.6108C4.65041 5.2604 3.89268 6.1837 3.44523 7.26394C2.99778 8.34418 2.8807 9.53285 3.10881 10.6796C3.33692 11.8264 3.89996 12.8798 4.72675 13.7066C5.55353 14.5334 6.60691 15.0964 7.75369 15.3245C8.90047 15.5526 10.0891 15.4355 11.1694 14.9881C12.2496 14.5406 13.1729 13.7829 13.8225 12.8107C14.4721 11.8385 14.8188 10.6955 14.8188 9.52629C14.8188 7.95838 14.196 6.45469 13.0873 5.34601C11.9786 4.23733 10.4749 3.61448 8.90703 3.61448Z" fill="white" />
+                                <path d="M12.6021 10.2652H8.90719C8.7112 10.2652 8.52324 10.1874 8.38465 10.0488C8.24607 9.91022 8.16821 9.72225 8.16821 9.52627V5.83138C8.16821 5.63539 8.24607 5.44743 8.38465 5.30885C8.52324 5.17026 8.7112 5.09241 8.90719 5.09241C9.10318 5.09241 9.29114 5.17026 9.42972 5.30885C9.56831 5.44743 9.64617 5.63539 9.64617 5.83138V8.78729H12.6021C12.7981 8.78729 12.986 8.86515 13.1246 9.00373C13.2632 9.14232 13.341 9.33028 13.341 9.52627C13.341 9.72225 13.2632 9.91022 13.1246 10.0488C12.986 10.1874 12.7981 10.2652 12.6021 10.2652Z" fill="white" />
+                            </svg>
+                            <div><span class="fw-700">24 Hour</span><br>Response Time</div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="cta-card">
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.5894 3.14066V0.989143C15.5894 0.798938 15.511 0.616523 15.3713 0.482027C15.2316 0.347532 15.0422 0.271973 14.8447 0.271973H13.3552C13.1576 0.271973 12.9682 0.347532 12.8285 0.482027C12.6889 0.616523 12.6104 0.798938 12.6104 0.989143V3.14066H6.65237V0.989143C6.65237 0.798938 6.5739 0.616523 6.43424 0.482027C6.29457 0.347532 6.10514 0.271973 5.90762 0.271973H4.41811C4.22059 0.271973 4.03116 0.347532 3.89149 0.482027C3.75182 0.616523 3.67335 0.798938 3.67335 0.989143V3.14066C2.88327 3.14066 2.12554 3.44289 1.56687 3.98087C1.0082 4.51886 0.694336 5.24852 0.694336 6.00934L0.694336 14.6154C0.694336 15.3762 1.0082 16.1059 1.56687 16.6439C2.12554 17.1818 2.88327 17.4841 3.67335 17.4841H15.5894C16.3795 17.4841 17.1372 17.1818 17.6959 16.6439C18.2546 16.1059 18.5684 15.3762 18.5684 14.6154V6.00934C18.5684 5.24852 18.2546 4.51886 17.6959 3.98087C17.1372 3.44289 16.3795 3.14066 15.5894 3.14066ZM15.5894 14.6154H3.67335V7.44368H15.5894V14.6154Z" fill="white" />
+                            </svg>
+                            <div><span class="fw-700">Same Day</span><br>Response</div>
                         </div>
                     </div>
                 </div>
@@ -160,18 +224,18 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="fs-64 fw-800 text-black text-center lh-1 pb-2"><span class="text-primary">Affordable plumbing</span> solutions for every budget</div>
-                <div class="fs-18 text-dark text-center lh-2 py-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.</div>
+                <div class="heading fs-64 fw-800 text-black text-center lh-1 pb-2"><span class="text-primary">Affordable plumbing</span> solutions for every budget</div>
+                <div class="fs-18 text-dark text-center lh-2 py-4">Looking for expert plumbing advice? Contact us today and let our team of professionals assist you!</div>
             </div>
         </div>
 
-        <div class="row pt-5 gx-5">
+        <div class="row pt-md-5 gx-5 gy-3">
             <div class="col-lg-6">
                 <div class="form_box_wrapper">
                     <div class="form_box">
                         <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                         <div class="text-primary">7 Years Guarantee <span class="text-secondary">On All Works Done</span></div>
-                        <div class="fs-16 fw-500 text-quarternary">Pellentesque habitant morbi tristique senectus et netus et malesuada.</div>
+                        <div class="fs-16 fw-500 text-quarternary sub-text pt-2">Our team value our customers satisfaction as our top priority. Each job is complete by our qualified tradesman.</div>
                     </div>
                 </div>
             </div>
@@ -190,10 +254,20 @@
                         <div class="col-12">
                             <select name="service" class="form-control" required>
                                 <option selected disabled>Service Required</option>
-                                <option>Service 1</option>
-                                <option>Service 2</option>
-                                <option>Service 3</option>
-                                <option>Service 4</option>
+                                <option>General Plumbing</option>
+                                <option>247 Emergency</option>
+                                <option>Burst & Leaking Pipes</option>
+                                <option>Blockages</option>
+                                <option>CCTV inspections</option>
+                                <option>Gas safety checks</option>
+                                <option>Water leak detection</option>
+                                <option>Water leak repairs</option>
+                                <option>Bathroom renovations</option>
+                                <option>HWS installations</option>
+                                <option>HWS maintenance repairs</option>
+                                <option>Roofing</option>
+                                <option>Roofing Leaks</option>
+                                <option>Water filter installations</option>
                             </select>
                         </div>
                         <div class="col-12">
@@ -214,29 +288,29 @@
         <div class="about_box contain">
             <div class="inner contain">
                 <div class="row">
-                    <div class="col-lg-6 position-relative d-flex justify-content-center">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
                         <?= renderImg('about_1_guys.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="pt-5 pb-6">
+                    <div class="col-lg-5 order-1 order-md-2">
+                        <div class="py-5 pb-md-6 px-4 px-md-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">Blocks Drains</span> From $79</div>
                             </div>
-                            <div class="text-primary fs-54 fw-700 lh-1 pt-3">
-                                Expert solutions
-                                <div class="text-secondary">for all your<br class="d-none d-xl-block" /> plumbing needs</div>
+                            <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
+                                Expert solutions<br class="d-none d-xl-block" />
+                                <span class="text-secondary-dark">for all your<br class="d-none d-xl-block" /> plumbing needs</span>
                             </div>
                             <div class="lh-2 text-quarternary py-4">
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
+                                A plumbing company that has experienced and qualified plumbers on staff can provide customers with peace of mind that their plumbing problems will be handled professionally and efficiently.
                             </div>
-                            <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
-                                <div class="col-12 col-md-auto">
-                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
+                            <div class="row d-md-inline-flex align-items-center bg-white rounded-pill gx-0">
+                                <div class="col col-md-auto">
+                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-md-5">
                                         Contact Us
                                     </a>
                                 </div>
-                                <div class="col-12 col-md-auto">
-                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
+                                <div class="col-auto">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-4 px-md-5">
                                         Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
                                     </a>
                                 </div>
@@ -247,32 +321,32 @@
             </div>
         </div>
 
-        <div class="about_box contain my-6">
+        <div class="about_box contain my-5 my-md-6">
             <div class="inner contain">
                 <div class="row">
-                    <div class="col-lg-6 position-relative d-flex justify-content-center">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
                         <?= renderImg('about_2_guy.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="pt-5 pb-6">
+                    <div class="col-lg-5 order-1 order-md-2">
+                        <div class="py-5 pb-md-6 px-4 px-md-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">$65 Off</span> Water Filter Installations</div>
                             </div>
-                            <div class="text-primary fs-54 fw-700 lh-1 pt-3">
-                                <span class="text-secondary">Professional plumbing,</span>
+                            <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
+                                <span class="text-secondary-dark">Professional plumbing,</span>
                                 done right the first time.
                             </div>
                             <div class="lh-2 text-quarternary py-4">
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
+                                Local to Melbourne we can provide customers with reliable and responsive service, as well as a deep understanding of the local plumbing systems and regulations.
                             </div>
-                            <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
-                                <div class="col-12 col-md-auto">
-                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
+                            <div class="row d-md-inline-flex align-items-center bg-white rounded-pill gx-0">
+                                <div class="col col-md-auto">
+                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-md-5">
                                         Contact Us
                                     </a>
                                 </div>
-                                <div class="col-12 col-md-auto">
-                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
+                                <div class="col-auto">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-4 px-md-5">
                                         Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
                                     </a>
                                 </div>
@@ -283,7 +357,43 @@
             </div>
         </div>
 
-        <div class="about_box">
+        <div class="about_box contain d-md-none">
+            <div class="inner contain">
+                <div class="row">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
+                        <?= renderImg('about_1_guys.png', 'lib', 'visibility-none') ?>
+                    </div>
+                    <div class="col-lg-5 order-1 order-md-2">
+                        <div class="py-5 pb-md-6 px-4 px-md-0">
+                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                                <div>CCTV Drain Inspection<span class="fw-700">From $99</span></div>
+                            </div>
+                            <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
+                                Your trusted<br class="d-none d-xl-block" />
+                                <span class="text-secondary-dark">plumbing partner for life.</span>
+                            </div>
+                            <div class="lh-2 text-quarternary py-4">
+                                Local to Melbourne we can provide customers with reliable and responsive service, as well as a deep understanding of the local plumbing systems and regulations.
+                            </div>
+                            <div class="row d-md-inline-flex align-items-center bg-white rounded-pill gx-0">
+                                <div class="col col-md-auto">
+                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-md-5">
+                                        Contact Us
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-4 px-md-5">
+                                        Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about_box d-none d-md-block">
             <div class="inner py-7 px-4 px-xl-8">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
@@ -414,7 +524,6 @@
                                             <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                                <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
                                             </div>
                                         </div>
                                     </div>
@@ -436,8 +545,8 @@
                                         </defs>
                                     </svg>
                                     <div class="fs-18 py-3">24/7 Emergency</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                    <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All 24/7 Emergency Services</div>
+                                    <div class="py-4 lh-2">24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.</div>
                                     <form action="./src/callback" class="callback_form mt-3" method="POST">
                                         <div class="row align-items-center gx-2">
                                             <div class="col">
@@ -460,7 +569,6 @@
                                             <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                                <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
                                             </div>
                                         </div>
                                     </div>
@@ -482,8 +590,8 @@
                                         </defs>
                                     </svg>
                                     <div class="fs-18 py-3">Burst & Leaking Pipes</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                    <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Burst & Leaking Pipes Services</div>
+                                    <div class="py-4 lh-2">At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.</div>
                                     <form action="./src/callback" class="callback_form mt-3" method="POST">
                                         <div class="row align-items-center gx-2">
                                             <div class="col">
@@ -506,7 +614,6 @@
                                             <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                                <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
                                             </div>
                                         </div>
                                     </div>
@@ -528,8 +635,8 @@
                                         </defs>
                                     </svg>
                                     <div class="fs-18 py-3">Blockages & CCTV Drain Inspections</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                    <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Blockages & CCTV Drain Inspection Services</div>
+                                    <div class="py-4 lh-2">All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.</div>
                                     <form action="./src/callback" class="callback_form mt-3" method="POST">
                                         <div class="row align-items-center gx-2">
                                             <div class="col">
@@ -552,7 +659,6 @@
                                             <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                                <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
                                             </div>
                                         </div>
                                     </div>
@@ -574,8 +680,8 @@
                                         </defs>
                                     </svg>
                                     <div class="fs-18 py-3">Gas Safety Checks</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                    <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Gas Safety Services</div>
+                                    <div class="py-4 lh-2">At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently.</div>
                                     <form action="./src/callback" class="callback_form mt-3" method="POST">
                                         <div class="row align-items-center gx-2">
                                             <div class="col">
@@ -598,7 +704,6 @@
                                             <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                                <div class="text-dark pt-1 opacity-0_76">Pellentesque habitant morbi tristique senectus </div>
                                             </div>
                                         </div>
                                     </div>
@@ -617,7 +722,6 @@
         <div class="row justify-content-center">
             <div class="col-12 col-xl-10">
                 <div class="text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">We prioritise customer satisfaction</span> and strive for the best experience.</div>
-                <div class="text-dark text-center fs-18 pt-4 lh-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.</div>
 
                 <div class="position-relative">
                     <div class="row testimonial_window mt-6">
@@ -927,7 +1031,7 @@
 <section class="integrity">
     <div class="container">
         <div class="text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">Integrity in every job</span>, big or small.</div>
-        <div class="text-dark text-center fs-18 pt-4 lh-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.</div>
+        <div class="text-dark text-center fs-18 pt-4 lh-2">All Spec Plumbing provides upfront and transparent pricing and will always provide customers with clarity and transparency each and every time!</div>
 
         <div class="position-relative">
             <div class="row justify-content-around align-items-center gx-xl-6 pt-7 position-relative">
@@ -981,13 +1085,13 @@
                                 Commitment to safety and the measures you take to ensure the safety of your clients and employees.
                             </div>
                             <div class="custom_tab_content" id="integrity_eco_friendliness">
-                                bCommitment to safety and the measures you take to ensure the safety of your clients and employees.
+                                Eco-friendly solutions can provide customers with the opportunity to reduce their environmental impact while saving money on their utility bills.
                             </div>
                             <div class="custom_tab_content" id="integrity_solar">
-                                cCommitment to safety and the measures you take to ensure the safety of your clients and employees.
+                                The team at All Spec can also assist our clients with Solar Solutions for Hot water and other services that you may require.
                             </div>
                             <div class="custom_tab_content" id="integrity_equipment">
-                                dCommitment to safety and the measures you take to ensure the safety of your clients and employees.
+                                By investing in high quality equipment and technology, our plumbing company is able to provide efficient and effective solutions for all of your plumbing needs.
                             </div>
                         </div>
                     </div>

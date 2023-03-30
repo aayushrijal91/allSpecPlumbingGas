@@ -37,6 +37,10 @@ button:focus,
     text-decoration: none;
 }
 
+.visibility-none {
+    visibility: hidden;
+}
+
 //Go To Top
 #return-to-top {
     position: fixed;
