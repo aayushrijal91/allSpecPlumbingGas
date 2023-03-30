@@ -1,5 +1,5 @@
 <header>
-    <div class="mobile-navigation d-lg-none py-2 bg-primary-light">
+    <div class="mobile-navigation d-xl-none py-2 bg-primary-light">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col row align-items-center g-1">
@@ -16,7 +16,7 @@
             </div>
         </div>
     </div>
-    <div class="navigation py-3 d-none d-lg-block">
+    <div class="navigation py-3 d-none d-xl-block">
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-auto">
@@ -61,8 +61,8 @@
     <div class="banner">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-5 text-white">
-                    <div class="d-lg-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
+                <div class="col-xl-5 text-white">
+                    <div class="d-xl-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
                     <h1 class="heading font-articulat-heavy fs-58 lh-1 fw-800">Reliable plumbing solutions, <span class="text-secondary">every time</span></h1>
                     <div class="fs-18 pb-3 d-none d-md-block">Local Melbourne plumbing experts with unbeatable rates</div>
                     <div class="row justify-content-between py-4 algin-items-center">
@@ -98,12 +98,12 @@
                         <div class="gradient-line"></div>
                     </div>
 
-                    <div class="banner_box_1 d-none d-lg-block">
+                    <div class="banner_box_1 d-none d-xl-block">
                         <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                         CCTV Drain Inspections Starting <div class="text-secondary">From $99*</div>
                     </div>
 
-                    <div class="row justify-content-between position-absolute d-none d-lg-flex">
+                    <div class="row justify-content-between position-absolute d-none d-xl-flex">
                         <div class="col-auto">
                             <div class="cta-card">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 position-relative">
+                <div class="col-xl-6 position-relative">
                     <div class="inspection_slider flame_1 active">
                         <div>
                             <div class="text-white fs-51 fw-700 lh-1 pb-4">Free <span class="text-primary">Home Inspection</span></div>
@@ -165,14 +165,14 @@
                 </div>
             </div>
 
-            <div class="banner_box_1 d-lg-none">
+            <div class="banner_box_1 d-xl-none">
                 <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                 <div>
                     Drain Blockages + <div class="text-secondary">CCTV For $295</div>
                 </div>
             </div>
             <div class="position-relative w-100">
-                <div class="row justify-content-between position-absolute w-100 d-lg-none gx-0">
+                <div class="row justify-content-between position-absolute w-100 d-xl-none gx-0">
                     <div class="col-auto">
                         <div class="cta-card">
                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@
             </div>
         </div>
 
-        <div class="row pt-md-5 gx-md-5 gy-3 gy-md-4">
+        <div class="row pt-md-5 gx-xl-5 gy-3 gy-md-4">
             <div class="col-lg-6">
                 <div class="form_box_wrapper">
                     <div class="form_box">
@@ -242,10 +242,10 @@
                         <div class="col-12">
                             <input type="text" class="form-control" placeholder="Your Full Name" name="fullName" required />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-lg-12 col-xl-6">
                             <input type="email" class="form-control" placeholder="Your Email" name="email" required />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-lg-12 col-xl-6">
                             <input type="tel" class="form-control" placeholder="Your Number" name="phoneNumber" required />
                         </div>
                         <div class="col-12">
@@ -288,8 +288,8 @@
                     <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-lg-1">
                         <?= renderImg('about_1_guys.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5 order-1 order-lg-2">
-                        <div class="py-5 pb-md-6 px-4 px-lg-0">
+                    <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
+                        <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">Blocks Drains</span> From $79</div>
                             </div>
@@ -324,8 +324,8 @@
                     <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-lg-1">
                         <?= renderImg('about_2_guy.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5 order-1 order-lg-2">
-                        <div class="py-5 pb-md-6 px-4 px-lg-0">
+                    <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
+                        <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">$65 Off</span> Water Filter Installations</div>
                             </div>
@@ -393,7 +393,7 @@
         <div class="about_box d-none d-lg-block">
             <div class="inner py-7 px-4 px-xl-8">
                 <div class="row align-items-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-6 col-xl-7">
                         <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                             <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
                         </div>
@@ -402,7 +402,7 @@
                             plumbing partner for life.
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-6 col-xl-5">
                         <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
@@ -425,7 +425,7 @@
 <div class="container mt-4 mt-md-7">
     <section class="services">
         <div class="row justify-content-center">
-            <div class="col-lg-10">
+            <div class="col-lg-11 col-xl-10">
                 <div class="row justify-content-between align-items-center gy-4 gy-lg-0 px-3">
                     <div class="col-lg-8">
                         <div class="heading fs-54 lh-1 text-primary fw-800">Affordable plumbing <span class="text-white">solutions for every budget.</span></div>
@@ -512,7 +512,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="service_cta">
                                         <div class="macbook_action_buttons">
                                             <div class="red"></div>
@@ -559,7 +559,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="service_cta">
                                         <div class="macbook_action_buttons">
                                             <div class="red"></div>
@@ -606,7 +606,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="service_cta">
                                         <div class="macbook_action_buttons">
                                             <div class="red"></div>
@@ -653,7 +653,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="service_cta">
                                         <div class="macbook_action_buttons">
                                             <div class="red"></div>
@@ -700,7 +700,7 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-6 col-xl-5">
                                     <div class="service_cta">
                                         <div class="macbook_action_buttons">
                                             <div class="red"></div>
