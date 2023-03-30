@@ -9,6 +9,7 @@ $light: #f3f1f1;
 $light-blue: #D8EEF6;
 $dark: #3E6977;
 $grey: #d9d9d9;
+$dark-grey: #393939;
 
 $theme-colors: () !default;
 
@@ -24,6 +25,7 @@ $theme-colors: map-merge((
             "light-blue": $light-blue,
             "dark": $dark,
             "grey": $grey,
+            "dark-grey": $dark-grey,
         ),
         $theme-colors
 );
@@ -118,6 +120,7 @@ $utilities: map-merge((
             9:9px,
             10:10px,
             20:20px,
+            30:30px,
             circle: 50%,
             pill: $border-radius-pill
         )
@@ -151,6 +154,7 @@ $utilities: map-merge((
         class: opacity,
         values: (
             "0_76": 0.76,
+            "0_59": 0.59,
         )
     )
 ), $utilities);

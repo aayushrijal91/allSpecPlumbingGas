@@ -33,11 +33,11 @@ $("#client-slider").slick({
 });
 
 $('button.navi-link').on('click', function () {
-    $('button.navi-link').removeClass('active');
+    $(this).parents('.tab-navigation').find('button.navi-link').removeClass('active');
     $(this).addClass('active');
 
     let tabId = $(this).attr('for');
 
-    $('.custom_tab_content').removeClass('active').hide();
+    $(this).parents('.custom_tab').find('.tab-content .custom_tab_content').removeClass('active').hide();
     $(`#${tabId}`).fadeIn();
 });
