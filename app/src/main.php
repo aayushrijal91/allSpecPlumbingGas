@@ -238,6 +238,7 @@
             </div>
             <div class="col-lg-6">
                 <form action="./src/form" method="POST">
+                    <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                     <div class="row gy-3">
                         <div class="col-12">
                             <input type="text" class="form-control" placeholder="Your Full Name" name="fullName" required />
@@ -249,7 +250,7 @@
                             <input type="tel" class="form-control" placeholder="Your Number" name="phoneNumber" required />
                         </div>
                         <div class="col-12">
-                            <select name="service" class="form-control" required>
+                            <select name="service" class="form-control form-select" required>
                                 <option selected disabled>Service Required</option>
                                 <option>General Plumbing</option>
                                 <option>247 Emergency</option>
@@ -501,6 +502,7 @@
                                         <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
                                         <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
                                         <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                                             <div class="row align-items-center gx-2">
                                                 <div class="col">
                                                     <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
@@ -548,6 +550,7 @@
                                         <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All 24/7 Emergency Services</div>
                                         <div class="py-4 lh-2">24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.</div>
                                         <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <input type="hidden" name="token" id="recaptchaResponse3" class="recaptchaResponse">
                                             <div class="row align-items-center gx-2">
                                                 <div class="col">
                                                     <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
@@ -595,6 +598,7 @@
                                         <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All Burst & Leaking Pipes Services</div>
                                         <div class="py-4 lh-2">At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.</div>
                                         <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <input type="hidden" name="token" id="recaptchaResponse4" class="recaptchaResponse">
                                             <div class="row align-items-center gx-2">
                                                 <div class="col">
                                                     <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
@@ -642,6 +646,7 @@
                                         <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Blockages & CCTV Drain Inspection Services</div>
                                         <div class="py-4 lh-2">All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.</div>
                                         <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <input type="hidden" name="token" id="recaptchaResponse5" class="recaptchaResponse">
                                             <div class="row align-items-center gx-2">
                                                 <div class="col">
                                                     <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
@@ -689,6 +694,7 @@
                                         <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Gas Safety Services</div>
                                         <div class="py-4 lh-2">At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently.</div>
                                         <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <input type="hidden" name="token" id="recaptchaResponse6" class="recaptchaResponse">
                                             <div class="row align-items-center gx-2">
                                                 <div class="col">
                                                     <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />

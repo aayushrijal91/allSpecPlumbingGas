@@ -2,10 +2,10 @@
 include __DIR__ . '/env.php';
 
 $site = "All Spec Plumbing & Gas";
-$phone_number = "1300 000 000";
-$admin_email = 'arijal@aiims.com.au';
+$phone_number = "03 9122 8978";
+$admin_email = 'info@allspecplumbing.com';
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = 'info@allspecplumbing.com';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
