@@ -425,15 +425,15 @@
     </div>
 </section>
 
-<div class="container mt-7">
+<div class="container mt-4 mt-md-7">
     <section class="services">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <div class="row justify-content-between align-items-center">
+                <div class="row justify-content-between align-items-center gy-4 gy-md-0 px-3">
                     <div class="col-lg-8">
-                        <div class="fs-54 lh-1 text-primary fw-800">Affordable plumbing <span class="text-white">solutions for every budget.</span></div>
+                        <div class="heading fs-54 lh-1 text-primary fw-800">Affordable plumbing <span class="text-white">solutions for every budget.</span></div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-12 col-md-auto">
                         <a href="tel:<?= $phone_number ?>" class="btn btn-primary rounded-pill text-white py-3 px-md-5">
                             Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
                         </a>
@@ -488,30 +488,32 @@
                         <div class="custom_tab_content active" id="service_general_plumbing">
                             <div class="row justify-content-between gx-xl-5">
                                 <div class="col-lg-6">
-                                    <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_404_14)">
-                                            <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                        </g>
-                                        <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                        <defs>
-                                            <clipPath id="clip0_404_14">
-                                                <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <div class="fs-18 py-3">General Plumbing</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                    <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
-                                    <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                        <div class="row align-items-center gx-2">
-                                            <div class="col">
-                                                <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                    <div class="px-3 px-md-0">
+                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_404_14)">
+                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                            </g>
+                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                            <defs>
+                                                <clipPath id="clip0_404_14">
+                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="fs-18 py-3">General Plumbing</div>
+                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
+                                        <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
+                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <div class="row align-items-center gx-2">
+                                                <div class="col">
+                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                </div>
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="service_cta">
@@ -521,8 +523,8 @@
                                             <div class="green"></div>
                                         </div>
                                         <div class="inner">
-                                            <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
+                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
                                             </div>
                                         </div>
@@ -533,30 +535,32 @@
                         <div class="custom_tab_content" id="service_emergency">
                             <div class="row justify-content-between gx-xl-5">
                                 <div class="col-lg-6">
-                                    <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_404_14)">
-                                            <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                        </g>
-                                        <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                        <defs>
-                                            <clipPath id="clip0_404_14">
-                                                <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <div class="fs-18 py-3">24/7 Emergency</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All 24/7 Emergency Services</div>
-                                    <div class="py-4 lh-2">24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.</div>
-                                    <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                        <div class="row align-items-center gx-2">
-                                            <div class="col">
-                                                <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                    <div class="px-3 px-md-0">
+                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_404_14)">
+                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                            </g>
+                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                            <defs>
+                                                <clipPath id="clip0_404_14">
+                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="fs-18 py-3">24/7 Emergency</div>
+                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All 24/7 Emergency Services</div>
+                                        <div class="py-4 lh-2">24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.</div>
+                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <div class="row align-items-center gx-2">
+                                                <div class="col">
+                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                </div>
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="service_cta">
@@ -566,8 +570,8 @@
                                             <div class="green"></div>
                                         </div>
                                         <div class="inner">
-                                            <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
+                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
                                             </div>
                                         </div>
@@ -578,30 +582,32 @@
                         <div class="custom_tab_content" id="service_leaking_pipes">
                             <div class="row justify-content-between gx-xl-5">
                                 <div class="col-lg-6">
-                                    <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_404_14)">
-                                            <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                        </g>
-                                        <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                        <defs>
-                                            <clipPath id="clip0_404_14">
-                                                <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <div class="fs-18 py-3">Burst & Leaking Pipes</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Burst & Leaking Pipes Services</div>
-                                    <div class="py-4 lh-2">At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.</div>
-                                    <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                        <div class="row align-items-center gx-2">
-                                            <div class="col">
-                                                <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                    <div class="px-3 px-md-0">
+                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_404_14)">
+                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                            </g>
+                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                            <defs>
+                                                <clipPath id="clip0_404_14">
+                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="fs-18 py-3">Burst & Leaking Pipes</div>
+                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All Burst & Leaking Pipes Services</div>
+                                        <div class="py-4 lh-2">At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.</div>
+                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <div class="row align-items-center gx-2">
+                                                <div class="col">
+                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                </div>
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="service_cta">
@@ -611,8 +617,8 @@
                                             <div class="green"></div>
                                         </div>
                                         <div class="inner">
-                                            <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
+                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
                                             </div>
                                         </div>
@@ -623,30 +629,32 @@
                         <div class="custom_tab_content" id="service_blockages">
                             <div class="row justify-content-between gx-xl-5">
                                 <div class="col-lg-6">
-                                    <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_404_14)">
-                                            <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                        </g>
-                                        <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                        <defs>
-                                            <clipPath id="clip0_404_14">
-                                                <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <div class="fs-18 py-3">Blockages & CCTV Drain Inspections</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Blockages & CCTV Drain Inspection Services</div>
-                                    <div class="py-4 lh-2">All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.</div>
-                                    <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                        <div class="row align-items-center gx-2">
-                                            <div class="col">
-                                                <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                    <div class="px-3 px-md-0">
+                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_404_14)">
+                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                            </g>
+                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                            <defs>
+                                                <clipPath id="clip0_404_14">
+                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="fs-18 py-3">Blockages & CCTV Drain Inspections</div>
+                                        <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Blockages & CCTV Drain Inspection Services</div>
+                                        <div class="py-4 lh-2">All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.</div>
+                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <div class="row align-items-center gx-2">
+                                                <div class="col">
+                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                </div>
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="service_cta">
@@ -656,8 +664,8 @@
                                             <div class="green"></div>
                                         </div>
                                         <div class="inner">
-                                            <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
+                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
                                             </div>
                                         </div>
@@ -668,30 +676,32 @@
                         <div class="custom_tab_content" id="service_gas_safety">
                             <div class="row justify-content-between gx-xl-5">
                                 <div class="col-lg-6">
-                                    <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_404_14)">
-                                            <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                        </g>
-                                        <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                        <defs>
-                                            <clipPath id="clip0_404_14">
-                                                <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <div class="fs-18 py-3">Gas Safety Checks</div>
-                                    <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Gas Safety Services</div>
-                                    <div class="py-4 lh-2">At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently.</div>
-                                    <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                        <div class="row align-items-center gx-2">
-                                            <div class="col">
-                                                <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                    <div class="px-3 px-md-0">
+                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_404_14)">
+                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                            </g>
+                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                            <defs>
+                                                <clipPath id="clip0_404_14">
+                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="fs-18 py-3">Gas Safety Checks</div>
+                                        <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Gas Safety Services</div>
+                                        <div class="py-4 lh-2">At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently.</div>
+                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <div class="row align-items-center gx-2">
+                                                <div class="col">
+                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                </div>
                                             </div>
-                                            <div class="col-auto">
-                                                <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="service_cta">
@@ -701,8 +711,8 @@
                                             <div class="green"></div>
                                         </div>
                                         <div class="inner">
-                                            <?= renderImg('general_plumbing_guy.jpg', 'lib', 'hero_img') ?>
                                             <div class="cta">
+                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                                                 <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
                                             </div>
                                         </div>
@@ -721,21 +731,21 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-10">
-                <div class="text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">We prioritise customer satisfaction</span> and strive for the best experience.</div>
+                <div class="heading text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">We prioritise customer satisfaction</span> and strive for the best experience.</div>
 
                 <div class="position-relative">
-                    <div class="row testimonial_window mt-6">
+                    <div class="row testimonial_window mt-6 gy-4 pb-15">
                         <div class="col-md-6 col-lg-4">
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="description">I have used All Spec Plumbing & Gas Solutions on a number of occasions and am always pleased with their quality of work, professionalism & honesty. I would highly recommend them.</div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Natasha Wheller</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -743,17 +753,16 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Efficient & Professional”</div>
                                         <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                            Nassim is efficient professional on time and did an excellent job every time I have called him for repair. I would definitely recommend him to anyone.
                                         </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Jamal Omran</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -761,61 +770,14 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Excellent Job”</div>
+                                        <div class="description">I recently hired All Spec Plumbing & Gas Solutions for some general plumbing work in my home, and I couldn't be happier with the results. The plumber was friendly, professional, and did an excellent job. I would highly recommend this company for any plumbing needs.</div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
-                                        </div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">William Trent</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -827,13 +789,13 @@
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt, purus vitae bibendum rutrum, dolor neque tempor odio.</div>
+                                        <div class="description">I had a plumbing emergency in the middle of the night, and All Spec Plumbing & Gas Solutions was there for me. The 24/7 emergency plumbing service was a lifesaver, and the plumber arrived quickly and resolved the issue with ease. Thank you so much!</div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Shannon Mohogany</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -841,18 +803,17 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Efficiency & Professionalism”</div>
                                         <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex.
+                                            <p class="pb-4">All Spec Plumbing & Gas Solutions fixed a burst pipe in my home, and I was impressed with their efficiency and professionalism.</p>
+                                            The plumber quickly identified the problem, explained the repair process, and got the job done in no time. I will definitely be using this company again for any future plumbing needs.
                                         </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Pria Shak</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -860,61 +821,17 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Running Smoothly”</div>
                                         <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                            <p class="pb-4">I had a blocked drain in my home that was causing a lot of problems, but All Spec Plumbing & Gas Solutions came to the rescue.</p>
+                                            The plumber was able to clear the blockage quickly and efficiently, and my drains are now running smoothly again. I highly recommend this company for anyone dealing with blocked drains.
                                         </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Josephine Wong</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -926,31 +843,16 @@
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
                                         <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                            <p class="pb-4">All Spec Plumbing & Gas Solutions conducted a thorough drain inspection on my property and provided me with a detailed report of their findings.</p>
+                                            The plumber was professional, knowledgeable, and answered all of my questions. I feel confident knowing that my drains are in good condition thanks to their expertise.
                                         </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Damien Cook</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -958,46 +860,17 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
-                                        <div class="row align-items-center gx-3 pt-4">
-                                            <div class="col-auto">
-                                                <div class="userImage"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
-                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Highly Recomment”</div>
                                         <div class="description">
-                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
-                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                            <p class="pb-4">I needed a gas safety check for my home, and All Spec Plumbing & Gas Solutions provided an excellent service.</p>
+                                            The plumber was thorough and ensured that my gas appliances were safe to use. I highly recommend this company for anyone needing gas-related services.
                                         </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Joshua David</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -1005,14 +878,17 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
-                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
-                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Friendly & Professional”</div>
+                                        <div class="description">
+                                            <p class="pb-4">All Spec Plumbing & Gas Solutions fixed a leaking toilet in my home, and I couldn't be happier with the results.</p>
+                                            The plumber was friendly, professional, and completed the job quickly and efficiently. I would definitely use this company again for any future plumbing needs.
+                                        </div>
                                         <div class="row align-items-center gx-3 pt-4">
                                             <div class="col-auto">
                                                 <div class="userImage"></div>
                                             </div>
                                             <div class="col">
-                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Leon Mangarelli</div>
                                                 <div class="text-secondary-dark opacity-0_59">Customer</div>
                                             </div>
                                         </div>
@@ -1030,11 +906,11 @@
 
 <section class="integrity">
     <div class="container">
-        <div class="text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">Integrity in every job</span>, big or small.</div>
+        <div class="heading text-center text-black fs-54 fw-800 lh-1"><span class="text-primary">Integrity in every job</span>, big or small.</div>
         <div class="text-dark text-center fs-18 pt-4 lh-2">All Spec Plumbing provides upfront and transparent pricing and will always provide customers with clarity and transparency each and every time!</div>
 
         <div class="position-relative">
-            <div class="row justify-content-around align-items-center gx-xl-6 pt-7 position-relative">
+            <div class="row justify-content-around align-items-center gx-xl-6 pt-4 pt-md-7 position-relative gy-5 gy-md-0">
                 <div class="col-lg-6">
                     <?= renderImg('integrity.jpg', 'lib', 'w-100 rounded-30') ?>
                 </div>
@@ -1095,14 +971,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row align-items-center bg-primary rounded-pill gx-0 d-inline-flex">
-                        <div class="col-12 col-md-auto">
-                            <a href="#form" class="btn rounded-0 text-white py-3 px-5">
+                    <div class="row d-md-inline-flex align-items-center bg-primary rounded-pill gx-0">
+                        <div class="col col-md-auto">
+                            <a href="#form" class="btn rounded-0 text-white py-3 px-md-5">
                                 Contact Us
                             </a>
                         </div>
-                        <div class="col-12 col-md-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
+                        <div class="col-auto">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-5">
                                 Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
                             </a>
                         </div>
@@ -1117,22 +993,22 @@
 
 <footer>
     <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center">
-            <div class="col-auto d-flex gap-4 gap-xxl-5">
+        <div class="row justify-content-center justify-content-lg-between align-items-center gy-4 gy-md-0">
+            <div class="col-md-auto d-flex gap-2 gap-md-4 gap-xxl-5 text-center ">
                 <span>Copyright <?= date('Y') ?></span>
                 <span class="text-primary">|</span>
                 <span><?= $site ?></span>
                 <span class="text-primary">|</span>
                 <span>All Rights Reserved</span>
             </div>
-            <div class="col-auto">
-                <div class="row align-items-center g-xl-5">
-                    <div class="col-auto d-flex gap-4 gap-xxl-5">
+            <div class="col-md-auto">
+                <div class="row align-items-center gx-xl-5 gy-4 gy-md-0">
+                    <div class="col-md-auto d-flex gap-4 gap-xxl-5 justify-content-center">
                         <span><u>Terms & Conditions</u></span>
                         <span class="text-primary">|</span>
                         <span><u>Privacy Policies</u></span>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-md-auto text-center">
                         <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
                             <?= renderImg("aiims.png", "logo") ?>
                         </a>

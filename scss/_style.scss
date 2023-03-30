@@ -288,11 +288,189 @@ section.about {
     }
 }
 
+section.services {
+    padding: 91px 0;
+    background: imgUrl('services.png') right bottom $secondary-dark;
+    border-radius: 70px;
+
+    @include media-breakpoint-down(sm) {
+        padding: 29px 0 0;
+
+        .heading {
+            font-size: 50px !important;
+            text-align: center;
+        }
+    }
+
+    .tab-navigation {
+        background: $light-blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        button.navi-link {
+            padding: 19px 24px;
+            border: 0;
+            background: none;
+            color: #9AC6D7;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &.active {
+                border-radius: 100px;
+                background: $white;
+                color: $primary;
+                transition: 0.2s all;
+            }
+        }
+    }
+
+    .tab-content {
+        @include media-breakpoint-down(sm) {
+            background: $secondary-darker;
+            padding: 48px 7px 7px;
+            border-radius: 68px;
+        }
+
+        .custom_tab_content {
+            display: none;
+            color: $white;
+
+            @include media-breakpoint-down(sm) {
+                .heading {
+                    font-size: 40px !important;
+                    text-align: start;
+                }
+            }
+
+            .callback_form {
+                background: $white;
+                padding: 13px;
+                border-radius: 50px;
+
+                @include media-breakpoint-down(sm) {
+                    display: none;
+                }
+
+                input {
+                    border: 0;
+                    background: none;
+                    color: $dark;
+
+                    &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+
+                    &::placeholder {
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            .service_cta {
+                background: $white;
+                border-radius: 30px;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                @include media-breakpoint-down(sm) {
+                    border-radius: 30px 30px 62px 62px;
+                }
+
+                .macbook_action_buttons {
+                    padding: 20px 27px;
+                    display: flex;
+                    gap: 11px;
+
+                    .red,
+                    .yellow,
+                    .green {
+                        opacity: 0.5;
+                        border-radius: 50%;
+                        height: 13px;
+                        width: 13px;
+                    }
+
+                    .red {
+                        background: #F32828;
+                    }
+
+                    .yellow {
+                        background: #FFC95F;
+                    }
+
+                    .green {
+                        background: #18CD1F;
+                    }
+                }
+
+                .inner {
+                    position: relative;
+                    flex: 1;
+                    display: flex;
+                    align-items: end;
+                    background: imgUrl('general_plumbing_guy.jpg', 'lib');
+                    background-size: cover;
+                    min-height: 456px;
+
+                    .hero_img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    .cta {
+                        width: 100%;
+                        background-size: cover;
+                        border-radius: 30px;
+                        background: $white;
+                        padding: 44px 44px 26px;
+                        position: relative;
+
+                        .cheque {
+                            width: 69px;
+                            height: 69px;
+                            background: $white;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 8px solid $primary;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: -30%;
+                            z-index: 100;
+                        }
+
+                        @include media-breakpoint-down(sm) {
+                            border-radius: 62px;
+                        }
+
+                    }
+                }
+            }
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+
 section.testimonials {
     padding-top: 160px;
 
     @include media-breakpoint-down(lg) {
-        padding: 80px 0;
+        padding-top: 80px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        .heading {
+            font-size: 51px !important;
+        }
     }
 
     .testimonial_window {
@@ -333,124 +511,16 @@ section.testimonials {
     }
 }
 
-section.services {
-    padding: 91px 0;
-    background: imgUrl('services.png') right bottom $secondary-dark;
-    border-radius: 70px;
-
-    .tab-navigation {
-        background: $light-blue;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        button.navi-link {
-            padding: 19px 24px;
-            border: 0;
-            background: none;
-            color: #9AC6D7;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-
-            &.active {
-                border-radius: 100px;
-                background: $white;
-                color: $primary;
-                transition: 0.2s all;
-            }
-        }
-    }
-
-    .tab-content {
-        .custom_tab_content {
-            display: none;
-            color: $white;
-
-            .callback_form {
-                background: $white;
-                padding: 13px;
-                border-radius: 50px;
-
-                input {
-                    border: 0;
-                    background: none;
-                    color: $dark;
-
-                    &:focus {
-                        box-shadow: none;
-                        outline: none;
-                    }
-
-                    &::placeholder {
-                        opacity: 0.7;
-                    }
-                }
-            }
-
-            .service_cta {
-                background: $white;
-                border-radius: 30px;
-                height: 100%;
-                overflow: hidden;
-
-                .macbook_action_buttons {
-                    padding: 20px 27px;
-                    display: flex;
-                    gap: 11px;
-
-                    .red,
-                    .yellow,
-                    .green {
-                        opacity: 0.5;
-                        border-radius: 50%;
-                        height: 13px;
-                        width: 13px;
-                    }
-
-                    .red {
-                        background: #F32828;
-                    }
-
-                    .yellow {
-                        background: #FFC95F;
-                    }
-
-                    .green {
-                        background: #18CD1F;
-                    }
-                }
-
-                .inner {
-                    position: relative;
-                    display: flex;
-                    align-items: end;
-
-                    .hero_img {
-                        width: 100%;
-                        height: 100%;
-                    }
-
-                    .cta {
-                        position: absolute;
-                        width: 100%;
-                        background: imgUrl('cta_bg.png');
-                        background-size: cover;
-                        border-radius: 30px;
-                        padding: 79px 42px 22px;
-                    }
-                }
-            }
-
-            &.active {
-                display: block;
-            }
-        }
-    }
-}
-
 section.integrity {
     padding-bottom: 160px;
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 80px;
+
+        .heading {
+            font-size: 50px !important;
+        }
+    }
 
     .tab-navigation {
         background: $light-blue;
@@ -494,6 +564,10 @@ section.integrity {
         top: 0;
         left: -71px;
         z-index: -1;
+
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
     }
 }
 
@@ -504,4 +578,8 @@ footer {
     font-family: $font-articulat;
     font-weight: 300;
     color: $white;
+
+    @include media-breakpoint-down(sm) {
+        padding: 48px 0;
+    }
 }
