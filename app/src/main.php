@@ -52,7 +52,9 @@
                             <div class="">Clients & Brands</div>
                             <div id="client-slider">
                                 <div><?= renderImg('client-1.png', 'logo') ?></div>
-                                <div><?= renderImg('client-1.png', 'logo') ?></div>
+                                <div><?= renderImg('client-2.png', 'logo') ?></div>
+                                <div><?= renderImg('client-3.png', 'logo') ?></div>
+                                <div><?= renderImg('client-4.png', 'logo') ?></div>
                             </div>
                         </div>
                         <div class="col-8">
@@ -210,32 +212,34 @@
 <section class="about">
     <div class="container">
         <div class="about_box contain">
-            <div class="row">
-                <div class="col-lg-6 position-relative d-flex justify-content-center">
-                    <?= renderImg('about_1_guys.png', 'lib', 'person-img') ?>
-                </div>
-                <div class="col-lg-5">
-                    <div class="pt-5 pb-6">
-                        <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
-                            <div><span class="fw-700">Blocks Drains</span> From $79</div>
-                        </div>
-                        <div class="text-primary fs-54 fw-700 lh-1 pt-3">
-                            Expert solutions
-                            <div class="text-secondary">for all your<br class="d-none d-xl-block" /> plumbing needs</div>
-                        </div>
-                        <div class="lh-2 text-quarternary py-4">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
-                        </div>
-                        <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
-                            <div class="col-12 col-md-auto">
-                                <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
-                                    Contact Us
-                                </a>
+            <div class="inner contain">
+                <div class="row">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center">
+                        <?= renderImg('about_1_guys.png', 'lib', 'person-img') ?>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="pt-5 pb-6">
+                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                                <div><span class="fw-700">Blocks Drains</span> From $79</div>
                             </div>
-                            <div class="col-12 col-md-auto">
-                                <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
-                                    Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
-                                </a>
+                            <div class="text-primary fs-54 fw-700 lh-1 pt-3">
+                                Expert solutions
+                                <div class="text-secondary">for all your<br class="d-none d-xl-block" /> plumbing needs</div>
+                            </div>
+                            <div class="lh-2 text-quarternary py-4">
+                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
+                            </div>
+                            <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
+                                <div class="col-12 col-md-auto">
+                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
+                                        Contact Us
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-auto">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
+                                        Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -244,22 +248,54 @@
         </div>
 
         <div class="about_box contain my-6">
-            <div class="row">
-                <div class="col-lg-6 position-relative d-flex justify-content-center">
-                    <?= renderImg('about_2_guy.png', 'lib', 'person-img') ?>
+            <div class="inner contain">
+                <div class="row">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center">
+                        <?= renderImg('about_2_guy.png', 'lib', 'person-img') ?>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="pt-5 pb-6">
+                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                                <div><span class="fw-700">$65 Off</span> Water Filter Installations</div>
+                            </div>
+                            <div class="text-primary fs-54 fw-700 lh-1 pt-3">
+                                <span class="text-secondary">Professional plumbing,</span>
+                                done right the first time.
+                            </div>
+                            <div class="lh-2 text-quarternary py-4">
+                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
+                            </div>
+                            <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
+                                <div class="col-12 col-md-auto">
+                                    <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
+                                        Contact Us
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-auto">
+                                    <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
+                                        Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="pt-5 pb-6">
+            </div>
+        </div>
+
+        <div class="about_box">
+            <div class="inner py-7 px-4 px-xl-8">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
                         <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
-                            <div><span class="fw-700">$65 Off</span> Water Filter Installations</div>
+                            <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
                         </div>
                         <div class="text-primary fs-54 fw-700 lh-1 pt-3">
-                            <span class="text-secondary">Professional plumbing,</span>
-                            done right the first time.
+                            <span class="text-secondary">Your trusted</span>
+                            plumbing partner for life.
                         </div>
-                        <div class="lh-2 text-quarternary py-4">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus et finibus metus, malesuada varius neque. Etiam tincidunt ornare lectus non condimentum.•
-                        </div>
+                    </div>
+                    <div class="col-lg-5">
                         <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
                             <div class="col-12 col-md-auto">
                                 <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
@@ -271,34 +307,6 @@
                                     Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="about_box py-7 px-4 px-xl-8">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
-                        <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
-                    </div>
-                    <div class="text-primary fs-54 fw-700 lh-1 pt-3">
-                        <span class="text-secondary">Your trusted</span>
-                        plumbing partner for life.
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="row d-inline-flex align-items-center bg-white rounded-pill gx-0">
-                        <div class="col-12 col-md-auto">
-                            <a href="#form" class="btn rounded-0 text-secondary py-3 px-5">
-                                Contact Us
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-secondary rounded-pill text-white py-3 px-md-5">
-                                Call Us <span class="ps-2 fw-700"><?= $phone_number ?></span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -662,6 +670,53 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">
+                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
+                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                        </div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4">
@@ -714,10 +769,104 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">
+                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
+                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                        </div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <div class="row gy-4">
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">
+                                            <p class="pb-4">bibendum rutrum, dolor neque tempor odio, id pellentesque leo purus vel ante. Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
+                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur quis dictum ex. Phasellus eros quam, rhoncus non erat commodo, condimentum blandit elit. Nam convallis leo sit amet odio faucibus, et vehicula est mollis.”
+                                        </div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="testimonial-card">
+                                        <div class="text-primary fw-700 fs-18 pb-3">“Amazing Service!”</div>
+                                        <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>
+                                        <div class="row align-items-center gx-3 pt-4">
+                                            <div class="col-auto">
+                                                <div class="userImage"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="text-secondary-dark fs-20 fw-700 lh-1">Tom Green</div>
+                                                <div class="text-secondary-dark opacity-0_59">Customer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-12">
                                     <div class="testimonial-card">
                                         <div class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</div>

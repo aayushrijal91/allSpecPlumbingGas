@@ -82,7 +82,7 @@ header {
             &.flame_2 {
                 position: absolute;
                 top: 0;
-                background: imgUrl('dotted-flame-slider.png') center bottom $tertiary;
+                background: imgUrl('dotted-flame-slider-2.png') center bottom $tertiary;
                 background-size: contain;
                 right: 13%;
                 transform: scale(0.9);
@@ -172,9 +172,18 @@ section.about {
             background-size: contain;
         }
 
-        .person-img {
-            position: absolute;
-            bottom: 0;
+        .inner {
+            background: imgUrl('about_inner.png') right top;
+            border-radius: 70px;
+
+            &.contain {
+                background-size: contain;
+            }
+
+            .person-img {
+                position: absolute;
+                bottom: 0;
+            }
         }
     }
 }
