@@ -4,6 +4,7 @@ $secondary: #2488B7;
 $secondary-dark: #1D76A0;
 $secondary-darker: #176B93;
 $tertiary: #3DCCFA;
+$orange: #f84600;
 $quarternary: #3E6977;
 $black: #000000;
 $white: #ffffff;
@@ -22,6 +23,7 @@ $theme-colors: map-merge((
             "secondary-dark": $secondary-dark,
             "secondary-darker": $secondary-darker,
             "tertiary": $tertiary,
+            "orange": $orange,
             "quarternary": $quarternary,
             "black": $black,
             "white": $white,
@@ -41,6 +43,7 @@ $font-sizes: (
     51: 51px,
     45: 45px,
     29: 29px,
+    24: 24px,
     20: 20px,
     18: 1.125rem,
     16: 1rem,

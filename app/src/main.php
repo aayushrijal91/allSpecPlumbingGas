@@ -81,9 +81,9 @@
                         </div>
                         <div class="col-8 d-none d-md-block">
                             <div class="gradient-line"></div>
-                            <div class="py-3 text-center text-white fs-29 lh-1">
-                                Refer a friend and get
-                                <div class="text-secondary fw-700">$65 off next plumbing job</div>
+                            <div class="py-3 text-center text-secondary-dark fs-24 lh-1">
+                                Free plumbing home inspection
+                                <div class="text-orange fw-700">after every job completed</div>
                             </div>
                             <div class="gradient-line"></div>
                         </div>
@@ -91,16 +91,16 @@
 
                     <div class="d-md-none pb-5">
                         <div class="gradient-line"></div>
-                        <div class="py-3 text-center text-white fs-29 lh-1">
-                            Refer a friend and get
-                            <div class="text-secondary fw-700">$65 off next plumbing job</div>
+                        <div class="py-3 text-center text-secondary-dark fs-29 lh-1">
+                            Free plumbing home inspection
+                            <div class="text-orange fw-700">after every job completed</div>
                         </div>
                         <div class="gradient-line"></div>
                     </div>
 
                     <div class="banner_box_1 d-none d-xl-block">
                         <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                        CCTV Drain Inspections Starting <div class="text-secondary">From $99*</div>
+                        Tap Service Repairs <span class="text-secondary">From $79*</span>
                     </div>
 
                     <div class="row justify-content-between position-absolute d-none d-xl-flex">
@@ -120,7 +120,7 @@
                                     <path d="M13.5266 8.4375H6.77655V11.8125H13.5266V8.4375Z" fill="white" />
                                     <path d="M15.2141 15.1875H6.77655V18.5625H15.2141V15.1875Z" fill="white" />
                                 </svg>
-                                <div><span class="fw-700">Licensed</span> &<br>Injured</div>
+                                <div><span class="fw-700">Licensed</span> &<br>Insured</div>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -171,9 +171,9 @@
                     Drain Blockages + <div class="text-secondary">CCTV For $295</div>
                 </div>
             </div>
-            <div class="position-relative w-100">
-                <div class="row justify-content-between position-absolute w-100 d-xl-none gx-0">
-                    <div class="col-auto">
+            <div class="position-relative w-100 d-xl-none">
+                <div class="row justify-content-between position-absolute w-100 gx-1 gx-md-0">
+                    <div class="col col-md-auto">
                         <div class="cta-card">
                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.4012 4.55898C17.2536 4.55898 13.8235 2.7753 11.547 1.01189C11.1113 0.672386 10.51 0.672386 10.0743 1.01189C7.79778 2.7753 4.36768 4.55898 2.22003 4.55898C1.5426 4.55898 0.992798 5.12525 0.992798 5.8258C0.992798 12.8997 4.30754 18.2621 10.3271 20.925C10.4817 20.9934 10.6462 21.0276 10.8106 21.0276C10.9751 21.0276 11.1395 20.9934 11.2942 20.925C17.3137 18.2621 20.6285 12.8997 20.6285 5.8258C20.6285 5.12525 20.0787 4.55898 19.4012 4.55898ZM10.8106 18.3723V10.8931H4.20323C3.81297 9.68705 3.56384 8.3835 3.48039 6.9748C5.84649 6.56308 8.6458 5.12271 10.8106 3.58353V10.8931H17.418C16.3405 14.2299 14.1168 16.7749 10.8106 18.3723Z" fill="white" />
@@ -181,7 +181,7 @@
                             <div><span class="fw-700">Life Time</span><br>Warranty</div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col col-md-auto">
                         <div class="cta-card">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14.7034 17.7606H1.87686C1.23553 17.7606 0.807983 17.333 0.807983 16.6917V1.72745C0.807983 1.08612 1.23553 0.658569 1.87686 0.658569H14.7034V2.79632H2.94574V15.6228H13.6345V14.554H15.7723V16.6917C15.7723 17.333 15.3447 17.7606 14.7034 17.7606Z" fill="white" />
@@ -191,10 +191,10 @@
                             </svg>
 
 
-                            <div><span class="fw-700">Licensed</span> &<br>Injured</div>
+                            <div><span class="fw-700">Licensed</span> &<br>Insured</div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col col-md-auto">
                         <div class="cta-card">
                             <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.90703 18.394C7.15316 18.394 5.43868 17.8739 3.98039 16.8995C2.5221 15.9251 1.3855 14.5402 0.714325 12.9198C0.0431489 11.2995 -0.132461 9.51645 0.209701 7.79628C0.551864 6.07612 1.39643 4.49604 2.6366 3.25587C3.87678 2.01569 5.45685 1.17113 7.17702 0.828964C8.89719 0.486801 10.6802 0.662412 12.3006 1.33359C13.9209 2.00476 15.3059 3.14136 16.2803 4.59965C17.2547 6.05794 17.7747 7.77242 17.7747 9.52629C17.7724 11.8774 16.8374 14.1316 15.1749 15.7941C13.5123 17.4566 11.2582 18.3917 8.90703 18.394ZM8.90703 3.61448C7.73778 3.61448 6.59479 3.9612 5.6226 4.6108C4.65041 5.2604 3.89268 6.1837 3.44523 7.26394C2.99778 8.34418 2.8807 9.53285 3.10881 10.6796C3.33692 11.8264 3.89996 12.8798 4.72675 13.7066C5.55353 14.5334 6.60691 15.0964 7.75369 15.3245C8.90047 15.5526 10.0891 15.4355 11.1694 14.9881C12.2496 14.5406 13.1729 13.7829 13.8225 12.8107C14.4721 11.8385 14.8188 10.6955 14.8188 9.52629C14.8188 7.95838 14.196 6.45469 13.0873 5.34601C11.9786 4.23733 10.4749 3.61448 8.90703 3.61448Z" fill="white" />
@@ -203,7 +203,7 @@
                             <div><span class="fw-700">24 Hour</span><br>Response Time</div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col col-md-auto">
                         <div class="cta-card">
                             <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15.5894 3.14066V0.989143C15.5894 0.798938 15.511 0.616523 15.3713 0.482027C15.2316 0.347532 15.0422 0.271973 14.8447 0.271973H13.3552C13.1576 0.271973 12.9682 0.347532 12.8285 0.482027C12.6889 0.616523 12.6104 0.798938 12.6104 0.989143V3.14066H6.65237V0.989143C6.65237 0.798938 6.5739 0.616523 6.43424 0.482027C6.29457 0.347532 6.10514 0.271973 5.90762 0.271973H4.41811C4.22059 0.271973 4.03116 0.347532 3.89149 0.482027C3.75182 0.616523 3.67335 0.798938 3.67335 0.989143V3.14066C2.88327 3.14066 2.12554 3.44289 1.56687 3.98087C1.0082 4.51886 0.694336 5.24852 0.694336 6.00934L0.694336 14.6154C0.694336 15.3762 1.0082 16.1059 1.56687 16.6439C2.12554 17.1818 2.88327 17.4841 3.67335 17.4841H15.5894C16.3795 17.4841 17.1372 17.1818 17.6959 16.6439C18.2546 16.1059 18.5684 15.3762 18.5684 14.6154V6.00934C18.5684 5.24852 18.2546 4.51886 17.6959 3.98087C17.1372 3.44289 16.3795 3.14066 15.5894 3.14066ZM15.5894 14.6154H3.67335V7.44368H15.5894V14.6154Z" fill="white" />
@@ -483,246 +483,84 @@
                     </div>
 
                     <div class="tab-content">
-                        <div class="custom_tab_content active" id="service_general_plumbing">
-                            <div class="row justify-content-between gx-xl-5 gy-md-4">
-                                <div class="col-lg-6">
-                                    <div class="px-3 px-lg-0">
-                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_404_14)">
-                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                            </g>
-                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                            <defs>
-                                                <clipPath id="clip0_404_14">
-                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="fs-18 py-3">General Plumbing</div>
-                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All General Plumbing Services</div>
-                                        <div class="py-4 lh-2">Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.</div>
-                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                            <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
-                                            <div class="row align-items-center gx-2">
-                                                <div class="col">
-                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                        <?php $services = array(
+                            [
+                                'id' => 'service_general_plumbing',
+                                'name' => 'General Plumbing',
+                                'description' => 'Our team of experienced and licensed plumbers are equipped with the latest tools and techniques to diagnose and fix any plumbing issue you may encounter. From leaky taps and clogged drains to water heater installations and sewer line repairs, we are equipped to handle it all.'
+                            ],
+                            [
+                                'id' => 'service_emergency',
+                                'name' => '24/7 Emergency',
+                                'description' => '24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.',
+                            ],
+                            [
+                                'id' => 'service_leaking_pipes',
+                                'name' => 'Burst & Leaking Pipes',
+                                'description' => 'At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.'
+                            ],
+                            [
+                                'id' => 'service_blockages',
+                                'name' => 'Blockages & CCTV Drain Inspections',
+                                'description' => 'All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.'
+                            ],
+                            [
+                                'id' => 'service_gas_safety',
+                                'name' => 'Gas Safety Checks',
+                                'description' => "At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently."
+                            ]
+                        ); ?>
+
+                        <?php foreach ($services as $index => $service) : ?>
+                            <div class="custom_tab_content<?= $index == 0 ? ' active' : '' ?>" id="<?= $service['id'] ?>">
+                                <div class="row justify-content-between gx-xl-5 gy-md-4">
+                                    <div class="col-lg-6">
+                                        <div class="px-3 px-lg-0">
+                                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_404_14)">
+                                                    <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
+                                                </g>
+                                                <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
+                                                <defs>
+                                                    <clipPath id="clip0_404_14">
+                                                        <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <div class="fs-18 py-3"><?= $service['name'] ?></div>
+                                            <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All <?= $service['name'] ?> Services</div>
+                                            <div class="py-4 lh-2"><?= $service['description'] ?></div>
+                                            <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                                <input type="hidden" name="token" id="recaptchaResponse<?= $index ?>" class="recaptchaResponse">
+                                                <div class="row align-items-center gx-2">
+                                                    <div class="col">
+                                                        <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
+                                                    </div>
                                                 </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-xl-5">
-                                    <div class="service_cta">
-                                        <div class="macbook_action_buttons">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
+                                            </form>
                                         </div>
-                                        <div class="inner">
-                                            <div class="cta">
-                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                                                <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                            </div>
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="custom_tab_content" id="service_emergency">
-                            <div class="row justify-content-between gx-xl-5 gy-md-4">
-                                <div class="col-lg-6">
-                                    <div class="px-3 px-lg-0">
-                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_404_14)">
-                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                            </g>
-                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                            <defs>
-                                                <clipPath id="clip0_404_14">
-                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="fs-18 py-3">24/7 Emergency</div>
-                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All 24/7 Emergency Services</div>
-                                        <div class="py-4 lh-2">24/7 Emergency Service: A plumbing company that offers 24/7 emergency service can provide customers with the assurance that they can rely on their services at any time, day or night. Also having access to 24/7 emergency service can also be particularly important for commercial customers who need to maintain the safety and functionality of their businesses at all times.</div>
-                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                            <input type="hidden" name="token" id="recaptchaResponse3" class="recaptchaResponse">
-                                            <div class="row align-items-center gx-2">
-                                                <div class="col">
-                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                                </div>
+                                    <div class="col-lg-6 col-xl-5">
+                                        <div class="service_cta">
+                                            <div class="macbook_action_buttons">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
                                             </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-xl-5">
-                                    <div class="service_cta">
-                                        <div class="macbook_action_buttons">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                        </div>
-                                        <div class="inner">
-                                            <div class="cta">
-                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                                                <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                            <div class="inner service_<?= $index ?>">
+                                                <div class="cta">
+                                                    <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
+                                                    <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="custom_tab_content" id="service_leaking_pipes">
-                            <div class="row justify-content-between gx-xl-5 gy-md-4">
-                                <div class="col-lg-6">
-                                    <div class="px-3 px-lg-0">
-                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_404_14)">
-                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                            </g>
-                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                            <defs>
-                                                <clipPath id="clip0_404_14">
-                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="fs-18 py-3">Burst & Leaking Pipes</div>
-                                        <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All Burst & Leaking Pipes Services</div>
-                                        <div class="py-4 lh-2">At All Spec Plumbing, we offer reliable and efficient burst and leaking pipe services throughout Melbourne. Our experienced and licensed plumbers use advanced equipment and techniques to quickly identify and resolve any issues with your pipes, preventing further damage and inconvenience.</div>
-                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                            <input type="hidden" name="token" id="recaptchaResponse4" class="recaptchaResponse">
-                                            <div class="row align-items-center gx-2">
-                                                <div class="col">
-                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-xl-5">
-                                    <div class="service_cta">
-                                        <div class="macbook_action_buttons">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                        </div>
-                                        <div class="inner">
-                                            <div class="cta">
-                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                                                <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="custom_tab_content" id="service_blockages">
-                            <div class="row justify-content-between gx-xl-5 gy-md-4">
-                                <div class="col-lg-6">
-                                    <div class="px-3 px-lg-0">
-                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_404_14)">
-                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                            </g>
-                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                            <defs>
-                                                <clipPath id="clip0_404_14">
-                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="fs-18 py-3">Blockages & CCTV Drain Inspections</div>
-                                        <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Blockages & CCTV Drain Inspection Services</div>
-                                        <div class="py-4 lh-2">All Spec Plumbing provides fast and effective solutions for blocked drains, using the latest technology to identify and resolve any issues. Our CCTV drain inspections allow us to accurately locate and diagnose any blockages or damage, providing you with a cost-effective solution that will save you time and money in the long run.</div>
-                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                            <input type="hidden" name="token" id="recaptchaResponse5" class="recaptchaResponse">
-                                            <div class="row align-items-center gx-2">
-                                                <div class="col">
-                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-xl-5">
-                                    <div class="service_cta">
-                                        <div class="macbook_action_buttons">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                        </div>
-                                        <div class="inner">
-                                            <div class="cta">
-                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                                                <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="custom_tab_content" id="service_gas_safety">
-                            <div class="row justify-content-between gx-xl-5 gy-md-4">
-                                <div class="col-lg-6">
-                                    <div class="px-3 px-lg-0">
-                                        <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_404_14)">
-                                                <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                            </g>
-                                            <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                            <defs>
-                                                <clipPath id="clip0_404_14">
-                                                    <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <div class="fs-18 py-3">Gas Safety Checks</div>
-                                        <div class="fs-45 fw-700 lh-1">Your One-Stop Shop for All Gas Safety Services</div>
-                                        <div class="py-4 lh-2">At All Spec Plumbing, we understand the importance of gas safety in the home. That's why we offer comprehensive gas safety checks for residential and commercial customers in Melbourne, ensuring that your gas appliances and systems are operating safely and efficiently.</div>
-                                        <form action="./src/callback" class="callback_form mt-3" method="POST">
-                                            <input type="hidden" name="token" id="recaptchaResponse6" class="recaptchaResponse">
-                                            <div class="row align-items-center gx-2">
-                                                <div class="col">
-                                                    <input type="tel" name="phoneNumber" placeholder="Your Number" class="form-control" />
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-primary rounded-pill text-white px-4" type="submit">Request Call Back</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-xl-5">
-                                    <div class="service_cta">
-                                        <div class="macbook_action_buttons">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                        </div>
-                                        <div class="inner">
-                                            <div class="cta">
-                                                <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
-                                                <div class="fs-20 text-primary lh-1"><span class="fw-700">$150 Off All HWS</span> Change Over When You Book Online</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>

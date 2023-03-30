@@ -31,7 +31,7 @@ header {
             font-weight: 700;
             line-height: 1;
             color: $primary;
-            padding: 44px 44px 26px;
+            padding: 44px;
             position: relative;
             margin: 54px 0 50px;
 
@@ -75,7 +75,7 @@ header {
             line-height: 1;
             text-align: center;
             gap: 5px;
-            padding: 4px;
+            padding: 8px;
 
             @include media-breakpoint-up(md) {
                 height: 140px;
@@ -84,6 +84,11 @@ header {
                 gap: 10px;
                 width: 140px;
                 border: 6.75263px solid $white;
+            }
+
+            @media screen and (max-width: 400px) {
+                height: 88px;
+                width: 100%;
             }
         }
 
@@ -425,9 +430,33 @@ section.services {
                     flex: 1;
                     display: flex;
                     align-items: end;
-                    background: imgUrl('general_plumbing_guy.jpg', 'lib');
-                    background-size: cover;
                     min-height: 456px;
+                    
+                    &.service_0 {
+                        background: imgUrl('general_plumbing_guy.jpg', 'lib');
+                        background-size: cover;
+                    }
+
+                    &.service_1 {
+                        background: imgUrl('247_emergency_guy.jpg');
+                        background-size: cover;
+                    }
+
+                    &.service_2 {
+                        background: imgUrl('leaking_pipes_guy.jpg');
+                        background-size: cover;
+                    }
+
+                    &.service_3 {
+                        background: imgUrl('blockages_guy.jpg');
+                        background-size: cover;
+                    }
+
+                    &.service_4 {
+                        background: imgUrl('gas_safety_check_guy.jpg');
+                        background-size: cover;
+                    }
+
 
                     .hero_img {
                         width: 100%;
