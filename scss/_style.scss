@@ -49,11 +49,14 @@ header {
                 z-index: 100;
             }
 
-            @include media-breakpoint-down(sm) {
-                margin: 10px 0 27px;
+            @include media-breakpoint-down(lg) {
                 display: flex;
                 justify-content: center;
                 text-align: center;
+            }
+
+            @include media-breakpoint-down(sm) {
+                margin: 10px 0 27px;
             }
         }
 
@@ -185,10 +188,9 @@ section.form {
                 border: 8px solid #d9d5d0;
                 border-radius: 50%;
                 position: absolute;
-                top: -45%;
+                top: -36px;
 
                 @include media-breakpoint-down(sm) {
-                    top: -30%;
                     left: 10%;
                 }
             }
@@ -248,10 +250,14 @@ section.about {
         border-radius: 70px;
         background: imgUrl('about_flame.png') left top $light-blue;
 
+        @include media-breakpoint-down(lg) {
+            background-position: center bottom;
+
+        }
+
         @include media-breakpoint-down(sm) {
             border-radius: 49px;
             overflow: hidden;
-            background-position: center bottom;
         }
 
         &.contain {
@@ -279,7 +285,7 @@ section.about {
             }
 
             .person-img {
-                @include media-breakpoint-up(md) {
+                @include media-breakpoint-up(lg) {
                     position: absolute;
                     bottom: 0;
                 }
@@ -292,6 +298,10 @@ section.services {
     padding: 91px 0;
     background: imgUrl('services.png') right bottom $secondary-dark;
     border-radius: 70px;
+    
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 0;
+    }
 
     @include media-breakpoint-down(sm) {
         padding: 29px 0 0;
@@ -442,7 +452,7 @@ section.services {
                             border: 8px solid $primary;
                             border-radius: 50%;
                             position: absolute;
-                            top: -30%;
+                            top: -39px;
                             z-index: 100;
                         }
 
@@ -515,8 +525,11 @@ section.testimonials {
 section.integrity {
     padding-bottom: 160px;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
         padding-bottom: 80px;
+    }
+
+    @include media-breakpoint-down(sm) {
 
         .heading {
             font-size: 50px !important;

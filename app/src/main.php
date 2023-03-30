@@ -1,5 +1,5 @@
 <header>
-    <div class="mobile-navigation d-md-none py-2 bg-primary-light">
+    <div class="mobile-navigation d-lg-none py-2 bg-primary-light">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col row align-items-center g-1">
@@ -16,7 +16,7 @@
             </div>
         </div>
     </div>
-    <div class="navigation py-3 d-none d-md-block">
+    <div class="navigation py-3 d-none d-lg-block">
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-auto">
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-5 text-white">
-                    <div class="d-md-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
+                    <div class="d-lg-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
                     <h1 class="heading font-articulat-heavy fs-58 lh-1 fw-800">Reliable plumbing solutions, <span class="text-secondary">every time</span></h1>
                     <div class="fs-18 pb-3 d-none d-md-block">Local Melbourne plumbing experts with unbeatable rates</div>
                     <div class="row justify-content-between py-4 algin-items-center">
@@ -98,12 +98,12 @@
                         <div class="gradient-line"></div>
                     </div>
 
-                    <div class="banner_box_1 d-none d-md-block">
+                    <div class="banner_box_1 d-none d-lg-block">
                         <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                         CCTV Drain Inspections Starting <div class="text-secondary">From $99*</div>
                     </div>
 
-                    <div class="row justify-content-between position-absolute d-none d-md-flex">
+                    <div class="row justify-content-between position-absolute d-none d-lg-flex">
                         <div class="col-auto">
                             <div class="cta-card">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,36 +146,33 @@
                 <div class="col-lg-6 position-relative">
                     <div class="inspection_slider flame_1 active">
                         <div>
-                            <div class="text-white fs-51 fw-700 lh-1">Free <span class="text-primary">Home Inspection</span></div>
-                            <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+                            <div class="text-white fs-51 fw-700 lh-1 pb-4">Free <span class="text-primary">Home Inspection</span></div>
                             <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
                         </div>
                     </div>
                     <div class="inspection_slider flame_2">
                         <div>
-                            <div class="text-secondary fs-51 fw-700 lh-1">Ph Water<br> Testing <span class="text-white">For $60</span></div>
-                            <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+                            <div class="text-secondary fs-51 fw-700 lh-1 pb-4">Ph Water<br> Testing <span class="text-white">For $60</span></div>
                             <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
                         </div>
                     </div>
                     <div class="inspection_slider flame_3">
                         <div>
-                            <div class="text-white fs-51 fw-700 lh-1">Free <span class="text-primary">Roof Inspection</span></div>
-                            <div class="text-white pt-3 pb-4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+                            <div class="text-white fs-51 fw-700 lh-1 pb-4">Free <span class="text-primary">Roof Inspection</span></div>
                             <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="banner_box_1 d-md-none">
+            <div class="banner_box_1 d-lg-none">
                 <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                 <div>
                     Drain Blockages + <div class="text-secondary">CCTV For $295</div>
                 </div>
             </div>
             <div class="position-relative w-100">
-                <div class="row justify-content-between position-absolute w-100 d-md-none gx-0">
+                <div class="row justify-content-between position-absolute w-100 d-lg-none gx-0">
                     <div class="col-auto">
                         <div class="cta-card">
                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +226,7 @@
             </div>
         </div>
 
-        <div class="row pt-md-5 gx-md-5 gy-3">
+        <div class="row pt-md-5 gx-md-5 gy-3 gy-md-4">
             <div class="col-lg-6">
                 <div class="form_box_wrapper">
                     <div class="form_box">
@@ -288,11 +285,11 @@
         <div class="about_box contain">
             <div class="inner contain">
                 <div class="row">
-                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-lg-1">
                         <?= renderImg('about_1_guys.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5 order-1 order-md-2">
-                        <div class="py-5 pb-md-6 px-4 px-md-0">
+                    <div class="col-lg-5 order-1 order-lg-2">
+                        <div class="py-5 pb-md-6 px-4 px-lg-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">Blocks Drains</span> From $79</div>
                             </div>
@@ -324,11 +321,11 @@
         <div class="about_box contain my-5 my-md-6">
             <div class="inner contain">
                 <div class="row">
-                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-lg-1">
                         <?= renderImg('about_2_guy.png', 'lib', 'person-img') ?>
                     </div>
-                    <div class="col-lg-5 order-1 order-md-2">
-                        <div class="py-5 pb-md-6 px-4 px-md-0">
+                    <div class="col-lg-5 order-1 order-lg-2">
+                        <div class="py-5 pb-md-6 px-4 px-lg-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">$65 Off</span> Water Filter Installations</div>
                             </div>
@@ -357,14 +354,14 @@
             </div>
         </div>
 
-        <div class="about_box contain d-md-none">
+        <div class="about_box contain d-lg-none">
             <div class="inner contain">
                 <div class="row">
-                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-lg-6 position-relative d-flex justify-content-center order-2 order-lg-1">
                         <?= renderImg('about_1_guys.png', 'lib', 'visibility-none') ?>
                     </div>
-                    <div class="col-lg-5 order-1 order-md-2">
-                        <div class="py-5 pb-md-6 px-4 px-md-0">
+                    <div class="col-lg-5 order-1 order-lg-2">
+                        <div class="py-5 pb-md-6 px-4 px-lg-0">
                             <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
                                 <div>CCTV Drain Inspection<span class="fw-700">From $99</span></div>
                             </div>
@@ -393,7 +390,7 @@
             </div>
         </div>
 
-        <div class="about_box d-none d-md-block">
+        <div class="about_box d-none d-lg-block">
             <div class="inner py-7 px-4 px-xl-8">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
@@ -429,7 +426,7 @@
     <section class="services">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <div class="row justify-content-between align-items-center gy-4 gy-md-0 px-3">
+                <div class="row justify-content-between align-items-center gy-4 gy-lg-0 px-3">
                     <div class="col-lg-8">
                         <div class="heading fs-54 lh-1 text-primary fw-800">Affordable plumbing <span class="text-white">solutions for every budget.</span></div>
                     </div>
@@ -486,9 +483,9 @@
 
                     <div class="tab-content">
                         <div class="custom_tab_content active" id="service_general_plumbing">
-                            <div class="row justify-content-between gx-xl-5">
+                            <div class="row justify-content-between gx-xl-5 gy-md-4">
                                 <div class="col-lg-6">
-                                    <div class="px-3 px-md-0">
+                                    <div class="px-3 px-lg-0">
                                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_404_14)">
                                                 <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
@@ -533,9 +530,9 @@
                             </div>
                         </div>
                         <div class="custom_tab_content" id="service_emergency">
-                            <div class="row justify-content-between gx-xl-5">
+                            <div class="row justify-content-between gx-xl-5 gy-md-4">
                                 <div class="col-lg-6">
-                                    <div class="px-3 px-md-0">
+                                    <div class="px-3 px-lg-0">
                                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_404_14)">
                                                 <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
@@ -580,9 +577,9 @@
                             </div>
                         </div>
                         <div class="custom_tab_content" id="service_leaking_pipes">
-                            <div class="row justify-content-between gx-xl-5">
+                            <div class="row justify-content-between gx-xl-5 gy-md-4">
                                 <div class="col-lg-6">
-                                    <div class="px-3 px-md-0">
+                                    <div class="px-3 px-lg-0">
                                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_404_14)">
                                                 <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
@@ -627,9 +624,9 @@
                             </div>
                         </div>
                         <div class="custom_tab_content" id="service_blockages">
-                            <div class="row justify-content-between gx-xl-5">
+                            <div class="row justify-content-between gx-xl-5 gy-md-4">
                                 <div class="col-lg-6">
-                                    <div class="px-3 px-md-0">
+                                    <div class="px-3 px-lg-0">
                                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_404_14)">
                                                 <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
@@ -674,9 +671,9 @@
                             </div>
                         </div>
                         <div class="custom_tab_content" id="service_gas_safety">
-                            <div class="row justify-content-between gx-xl-5">
+                            <div class="row justify-content-between gx-xl-5 gy-md-4">
                                 <div class="col-lg-6">
-                                    <div class="px-3 px-md-0">
+                                    <div class="px-3 px-lg-0">
                                         <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_404_14)">
                                                 <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
@@ -735,7 +732,7 @@
 
                 <div class="position-relative">
                     <div class="row testimonial_window mt-6 gy-4 pb-15">
-                        <div class="col-md-6 col-lg-4">
+                        <div class="col-lg-4">
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
@@ -785,7 +782,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
+                        <div class="col-lg-4">
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
@@ -839,7 +836,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
+                        <div class="col-lg-4">
                             <div class="row gy-4">
                                 <div class="col-12">
                                     <div class="testimonial-card">
@@ -910,7 +907,7 @@
         <div class="text-dark text-center fs-18 pt-4 lh-2">All Spec Plumbing provides upfront and transparent pricing and will always provide customers with clarity and transparency each and every time!</div>
 
         <div class="position-relative">
-            <div class="row justify-content-around align-items-center gx-xl-6 pt-4 pt-md-7 position-relative gy-5 gy-md-0">
+            <div class="row justify-content-around align-items-center gx-xl-6 pt-4 pt-md-7 position-relative gy-5 gy-lg-0">
                 <div class="col-lg-6">
                     <?= renderImg('integrity.jpg', 'lib', 'w-100 rounded-30') ?>
                 </div>
@@ -993,7 +990,7 @@
 
 <footer>
     <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center gy-4 gy-md-0">
+        <div class="row justify-content-center justify-content-lg-between align-items-center gy-4 gy-lg-0">
             <div class="col-md-auto d-flex gap-2 gap-md-4 gap-xxl-5 text-center ">
                 <span>Copyright <?= date('Y') ?></span>
                 <span class="text-primary">|</span>
@@ -1002,13 +999,13 @@
                 <span>All Rights Reserved</span>
             </div>
             <div class="col-md-auto">
-                <div class="row align-items-center gx-xl-5 gy-4 gy-md-0">
-                    <div class="col-md-auto d-flex gap-4 gap-xxl-5 justify-content-center">
+                <div class="row align-items-center gx-xl-5 gy-4 gy-lg-0">
+                    <div class="col-lg-auto d-flex gap-4 gap-xxl-5 justify-content-center">
                         <span><u>Terms & Conditions</u></span>
                         <span class="text-primary">|</span>
                         <span><u>Privacy Policies</u></span>
                     </div>
-                    <div class="col-md-auto text-center">
+                    <div class="col-lg-auto text-center">
                         <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
                             <?= renderImg("aiims.png", "logo") ?>
                         </a>
