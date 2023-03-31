@@ -42,25 +42,17 @@ $('button.navi-link').on('click', function () {
     $(`#${tabId}`).fadeIn();
 });
 
-function initNavigationSlick() {
-    if ($(document).width() <= 1200) {
-        $('.tab-navigation').slick({
-            slidesToShow: 1,
-            slidesToScroll: true,
-            variableWidth: true,
-            arrows: false,
-            infinite: false
-        });
-    }
+$('.tab-navigation').slick({
+    slidesToShow: 1,
+    infinite: false,
+    slidesToScroll: true,
+    variableWidth: true,
+    arrows: true,
+    touchThreshold: 500,
+});
 
-    $('#newTabNavigation').slick({
-        slidesToShow: 1,
-        slidesToScroll: true,
-        variableWidth: true,
-        arrows: false,
-    });
-}
+$('.tab-navigation').on('click', '.slick-slide', function() {
+    var slideIndex = $(this).index();
+    $('.tab-navigation').slick('slickGoTo', slideIndex);
+});
 
-initNavigationSlick();
-
-$(window).on('resize', function () { initNavigationSlick() });

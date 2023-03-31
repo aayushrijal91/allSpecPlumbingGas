@@ -322,7 +322,6 @@ section.services {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        overflow: hidden;
 
         button.navi-link {
             padding: 19px 24px;
@@ -428,33 +427,11 @@ section.services {
                 .inner {
                     position: relative;
                     flex: 1;
-                    display: flex;
-                    align-items: end;
                     min-height: 456px;
                     
-                    &.service_0 {
-                        background: imgUrl('general_plumbing_guy.jpg', 'lib');
-                        background-size: cover;
-                    }
-
-                    &.service_1 {
-                        background: imgUrl('247_emergency_guy.jpg');
-                        background-size: cover;
-                    }
-
-                    &.service_2 {
-                        background: imgUrl('leaking_pipes_guy.jpg');
-                        background-size: cover;
-                    }
-
-                    &.service_3 {
-                        background: imgUrl('blockages_guy.jpg');
-                        background-size: cover;
-                    }
-
-                    &.service_4 {
-                        background: imgUrl('gas_safety_check_guy.jpg');
-                        background-size: cover;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -536,7 +513,6 @@ section.integrity {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        overflow: hidden;
 
         button.navi-link {
             padding: 16px 24px;
