@@ -45,14 +45,22 @@ $('button.navi-link').on('click', function () {
 $('.tab-navigation').slick({
     slidesToShow: 1,
     infinite: false,
-    slidesToScroll: true,
+    slidesToScroll: 2,
     variableWidth: true,
     arrows: true,
     touchThreshold: 500,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                arrows: false
+            }
+        }
+    ]
 });
 
 $('.tab-navigation').on('click', '.slick-slide', function() {
     var slideIndex = $(this).index();
-    $('.tab-navigation').slick('slickGoTo', slideIndex);
+    $(this).parents('.custom_tab').find('.tab-navigation').slick('slickGoTo', slideIndex);
 });
 
