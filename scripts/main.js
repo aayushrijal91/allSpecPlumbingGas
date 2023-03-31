@@ -52,6 +52,13 @@ function initNavigationSlick() {
             infinite: false
         });
     }
+
+    $('#newTabNavigation').slick({
+        slidesToShow: 1,
+        slidesToScroll: true,
+        variableWidth: true,
+        arrows: false,
+    });
 }
 
 initNavigationSlick();
