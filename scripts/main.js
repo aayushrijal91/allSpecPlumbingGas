@@ -59,8 +59,37 @@ $('.tab-navigation').slick({
     ]
 });
 
-$('.tab-navigation').on('click', '.slick-slide', function() {
+$('.tab-navigation').on('click', '.slick-slide', function () {
     var slideIndex = $(this).index();
     $(this).parents('.custom_tab').find('.tab-navigation').slick('slickGoTo', slideIndex);
 });
 
+let counter = 0;
+$('.inspection_slider').on('click', function () {
+    $('.inspection_slider').removeClass('active')
+    $(this).addClass('active').prevAll().addClass('fly');
+
+    if ($(this).is(":last-child") && $(this).prevAll().hasClass('fly') && $(this).hasClass('active')) {
+        counter++;
+
+        if (counter == 2) {
+            $('.inspection_slider').removeClass('active').removeClass('fly');
+            counter = 0;
+        }
+    }
+});
+
+function initializeInspectionSlider() {
+    if($(document).width() < 540) {
+        $("#inspection_slider_P").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+        })
+    }
+}
+
+initializeInspectionSlider();
+
+$(window).on('resize', function () { initializeInspectionSlider() });
