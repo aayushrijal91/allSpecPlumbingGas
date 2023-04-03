@@ -81,9 +81,9 @@
                         </div>
                         <div class="col-8 d-none d-md-block">
                             <div class="gradient-line"></div>
-                            <div class="py-3 text-center text-secondary-dark fs-24 lh-1">
+                            <div class="py-3 text-center text-orange fs-24 lh-1">
                                 Free plumbing home inspection
-                                <div class="text-orange fw-700">after every job completed</div>
+                                <div class="fw-700">after every job completed</div>
                             </div>
                             <div class="gradient-line"></div>
                         </div>
@@ -138,7 +138,7 @@
                                     <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M23.0098 4.33333V1.08333C23.0098 0.796016 22.8912 0.520465 22.6803 0.317301C22.4693 0.114137 22.1831 0 21.8848 0L19.6348 0C19.3364 0 19.0502 0.114137 18.8393 0.317301C18.6283 0.520465 18.5098 0.796016 18.5098 1.08333V4.33333H9.50977V1.08333C9.50977 0.796016 9.39124 0.520465 9.18026 0.317301C8.96928 0.114137 8.68313 0 8.38477 0L6.13477 0C5.8364 0 5.55025 0.114137 5.33927 0.317301C5.12829 0.520465 5.00977 0.796016 5.00977 1.08333V4.33333C3.81629 4.33333 2.6717 4.78988 1.82779 5.60254C0.983871 6.41519 0.509766 7.5174 0.509766 8.66667L0.509766 21.6667C0.509766 22.8159 0.983871 23.9181 1.82779 24.7308C2.6717 25.5435 3.81629 26 5.00977 26H23.0098C24.2032 26 25.3478 25.5435 26.1917 24.7308C27.0357 23.9181 27.5098 22.8159 27.5098 21.6667V8.66667C27.5098 7.5174 27.0357 6.41519 26.1917 5.60254C25.3478 4.78988 24.2032 4.33333 23.0098 4.33333ZM23.0098 21.6667H5.00977V10.8333H23.0098V21.6667Z" fill="white" />
                                     </svg>
-    
+
                                     <div><span class="fw-700">Same Day</span><br>Response</div>
                                 </div>
                             </div>
@@ -293,8 +293,8 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
-                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
-                                <div><span class="fw-700">Blocks Drains</span> From $79</div>
+                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
+                                <div><span class="fw-700">Blocked Drains</span> From $79</div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
                                 Expert solutions<br class="d-none d-xl-block" />
@@ -329,7 +329,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
-                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">$80 Off</span> Any Roofing Work</div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
@@ -365,7 +365,7 @@
                     </div>
                     <div class="col-lg-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-0">
-                            <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
                                 <div>CCTV Drain Inspection<span class="fw-700">From $99</span></div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
@@ -397,7 +397,7 @@
             <div class="inner py-7 px-4 px-xl-8">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xl-7">
-                        <div class="rounded-pill bg-secondary text-white px-4 py-3 d-inline-flex lh-1">
+                        <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
                             <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
                         </div>
                         <div class="text-primary fs-54 fw-700 lh-1 pt-3">
@@ -444,7 +444,7 @@
                     <div class="tab-navigation rounded-pill my-5">
                         <?php foreach ($services as $i => $service) : ?>
                             <button type="button" for="<?= $service['id'] ?>" class="navi-link<?= $i == 0 ? ' active' : '' ?>">
-                                <?= $service['icon'] ?>
+                                <?= !empty($service['icon']) ? $service['icon'] : renderImg('service_' . $i . '_nav.png', 'icons') ?>
                                 <?= $service['name'] ?>
                             </button>
                         <?php endforeach; ?>
@@ -456,17 +456,7 @@
                                 <div class="row justify-content-between gx-xl-5 gy-md-4">
                                     <div class="col-lg-6">
                                         <div class="px-3 px-lg-0">
-                                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_404_14)">
-                                                    <path d="M30.0472 20.525L27.3472 17.975L30.0472 15.425C29.4847 15.1062 28.8097 15 28.1347 15C25.3222 15 23.0722 17.125 23.0722 19.7812C23.0722 20.3125 23.1847 20.7375 23.2972 21.2688L15.8722 26.475C14.9722 27.1125 14.9722 28.2812 15.6472 29.025L18.2347 31.575C19.0222 32.3188 20.2597 32.2125 20.9347 31.3625L26.4472 24.35C27.0097 24.4563 27.5722 24.5625 28.1347 24.5625C30.9472 24.5625 33.1972 22.4375 33.1972 19.7812C33.1972 19.1438 33.0847 18.5062 32.8597 17.975L30.0472 20.525Z" fill="white" />
-                                                </g>
-                                                <circle cx="24.1972" cy="24" r="23" stroke="white" stroke-width="2" />
-                                                <defs>
-                                                    <clipPath id="clip0_404_14">
-                                                        <rect width="18" height="17" fill="white" transform="translate(15.1972 15)" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
+                                            <?= renderImg('service_'. $index . '_tab.png', 'icons') ?>
                                             <div class="fs-18 py-3"><?= $service['name'] ?></div>
                                             <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All <?= $service['name'] ?> Services</div>
                                             <div class="py-4 lh-2"><?= $service['description'] ?></div>

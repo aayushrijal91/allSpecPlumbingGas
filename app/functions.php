@@ -43,37 +43,37 @@ $services = array(
     [
         'id' => "service_water_leak_detection",
         'name' => "Water Leak Detection",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "At All Spec Plumbing, we use advanced technology and equipment to detect leaks quickly and accurately. Our team of experienced plumbers can detect leaks in walls, floors, and ceilings, as well as underground and in hard-to-reach areas. Our leak detection services are non-invasive, meaning we don't need to dig up your property to find the source of the leak. We use techniques such as thermal imaging, acoustic detection, and moisture meters to locate the leak without causing any damage to your property."
     ],
     [
         'id' => "service_bathroom_renovation",
         'name' => "Bathroom Renovation",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "All Spec Plumbing offers professional bathroom renovation services to transform your old and outdated bathroom into a modern and functional space. Our team of experienced plumbers and renovators can handle every aspect of the project, from design to installation, ensuring a hassle-free and high-quality result."
     ],
     [
         'id' => "service_hot_water_system",
         'name' => "Hot Water System Installation",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "All Spec Plumbing provides comprehensive hot water system installation services for residential and commercial properties throughout Melbourne. Our licensed and experienced plumbers can recommend and install the best hot water system for your needs, ensuring efficient and reliable hot water supply."
     ],
     [
         'id' => "service_hot_water_repairs",
         'name' => "Hot Water System Maintenance & Repairs",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "At All Spec Plumbing, we offer expert hot water system maintenance and repair services to keep your system running smoothly. Our team of licensed and experienced plumbers can diagnose and fix any issues with your hot water system, ensuring you have access to hot water when you need it."
     ],
     [
         'id' => "service_roof_plumbing",
         'name' => "Roof Plumbing",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "All Spec Plumbing offers professional and reliable roof plumbing services for residential and commercial properties in Melbourne. Our team of licensed and experienced roof plumbers can handle everything from roof repairs and gutter cleaning to downpipe installation and roof leak detection."
     ],
     [
         'id' => "service_water_filter_installation",
         'name' => "Water Filter Installations ",
-        'icon' => '<svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4729 5.28594L11.0729 2.88594L13.4729 0.485938C12.9729 0.185937 12.3729 0.0859375 11.7729 0.0859375C9.27293 0.0859375 7.27293 2.08594 7.27293 4.58594C7.27293 5.08594 7.37293 5.48594 7.47293 5.98594L0.872927 10.8859C0.072927 11.4859 0.072927 12.5859 0.672927 13.2859L2.97293 15.6859C3.67293 16.3859 4.77293 16.2859 5.37293 15.4859L10.2729 8.88594C10.7729 8.98594 11.2729 9.08594 11.7729 9.08594C14.2729 9.08594 16.2729 7.08594 16.2729 4.58594C16.2729 3.98594 16.1729 3.38594 15.9729 2.88594L13.4729 5.28594Z" /></svg>',
+        'icon' => '',
         'description' => "All Spec Plumbing provides top-quality water filter installation services for homeowners and businesses in Melbourne. Our team of licensed plumbers can recommend and install the right water filtration system to ensure clean and safe drinking water for you and your family."
     ]
 );
