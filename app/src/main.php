@@ -73,6 +73,10 @@
                                 <div><?= renderImg('client-2.png', 'logo') ?></div>
                                 <div><?= renderImg('client-3.png', 'logo') ?></div>
                                 <div><?= renderImg('client-4.png', 'logo') ?></div>
+                                <div><?= renderImg('client-5.png', 'logo') ?></div>
+                                <div><?= renderImg('client-6.png', 'logo') ?></div>
+                                <div><?= renderImg('client-7.png', 'logo') ?></div>
+                                <div><?= renderImg('client-8.png', 'logo') ?></div>
                             </div>
                             <div class="d-md-none fs-13 fw-700">Clients & Brands</div>
                         </div>
