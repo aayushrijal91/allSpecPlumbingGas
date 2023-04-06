@@ -83,7 +83,7 @@ header {
                 text-align: center;
                 gap: 5px;
                 padding: 8px;
-    
+
                 @include media-breakpoint-up(md) {
                     height: 140px;
                     font-size: 1rem;
@@ -92,7 +92,7 @@ header {
                     width: 140px;
                     border: 6.75263px solid $white;
                 }
-    
+
                 @media screen and (max-width: 400px) {
                     height: 88px;
                     width: 100%;
@@ -117,9 +117,9 @@ header {
             justify-content: center;
             text-align: center;
             transition: all 0.3s ease;
+            margin: 0 5px;
 
             @include media-breakpoint-up(md) {
-                width: 522px;
                 min-height: 576px;
             }
 
@@ -129,44 +129,19 @@ header {
                 background-size: contain;
             }
 
-            &.flame_1 {
-                position: relative;
-                z-index: 3;
-            }
-
             &.flame_2 {
                 background: imgUrl('dotted-flame-slider-2.png') center bottom $tertiary;
                 background-size: contain;
-                
-                @include media-breakpoint-up(md) {
-                    position: absolute;
-                    top: 0;
-                    right: 13%;
-                    transform: scale(0.9);
-                    z-index: 2;
-                    // display: none;
-                }
             }
 
-            &.flame_3 {
-                @include media-breakpoint-up(md) {
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    z-index: 1;
-                    transform: scale(0.8);
-                    // display: none;
-                }
-            }
+            // &.active {
+            //     transition: all 0.1s;
+            //     transform: scale(1);
+            // }
 
-            &.active {
-                transition: all 0.1s;
-                transform: scale(1);
-            }
-
-            &.fly {
-                transform: translateY(-200%) ;
-            }
+            // &.fly {
+            //     transform: translateY(-200%);
+            // }
         }
     }
 }
@@ -326,7 +301,7 @@ section.services {
     padding: 91px 0;
     background: imgUrl('services.png') right bottom $secondary-dark;
     border-radius: 70px;
-    
+
     @include media-breakpoint-down(lg) {
         padding-bottom: 0;
     }
@@ -360,6 +335,33 @@ section.services {
                 background: $white;
                 color: $primary;
                 transition: 0.2s all;
+            }
+        }
+
+        .slick-dots {
+            li {
+                height: 8px;
+                width: 8px;
+
+                button {
+                    padding: 0;
+                    height: 8px;
+                    width: 8px;
+
+                    &::before {
+                        height: 8px;
+                        background: #000;
+                        border-radius: 50%;
+                        content: "";
+                        opacity: 0.2;
+                        width: 8px;
+                        line-height: 1;
+                    }
+                }
+
+                &.slick-active button::before {
+                    opacity: 0.75;
+                }
             }
         }
     }
@@ -451,7 +453,7 @@ section.services {
                     position: relative;
                     flex: 1;
                     min-height: 456px;
-                    
+
                     img {
                         width: 100%;
                         height: 100%;
@@ -552,6 +554,33 @@ section.integrity {
                 background: $white;
                 color: $primary;
                 transition: 0.2s all;
+            }
+        }
+
+        .slick-dots {
+            li {
+                height: 8px;
+                width: 8px;
+
+                button {
+                    padding: 0;
+                    height: 8px;
+                    width: 8px;
+
+                    &::before {
+                        height: 8px;
+                        background: #000;
+                        border-radius: 50%;
+                        content: "";
+                        opacity: 0.2;
+                        width: 8px;
+                        line-height: 1;
+                    }
+                }
+
+                &.slick-active button::before {
+                    opacity: 0.75;
+                }
             }
         }
     }

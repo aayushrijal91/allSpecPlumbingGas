@@ -91,9 +91,9 @@
 
                     <div class="d-md-none pb-5">
                         <div class="gradient-line"></div>
-                        <div class="py-3 text-center text-secondary-dark fs-29 lh-1">
+                        <div class="py-3 text-center text-orange fs-29 lh-1">
                             Free plumbing home inspection
-                            <div class="text-orange fw-700">after every job completed</div>
+                            <div class="fw-700">after every job completed</div>
                         </div>
                         <div class="gradient-line"></div>
                     </div>
@@ -145,23 +145,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 position-relative" id="inspection_slider_P">
-                    <div class="inspection_slider flame_1">
-                        <div>
-                            <div class="text-white fs-51 fw-700 lh-1 pb-4">$70 <span class="text-primary">Discount Online</span></div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="inspection_slider flame_2">
-                        <div>
-                            <div class="text-secondary fs-51 fw-700 lh-1 pb-4">Blocked Drains<br> From <span class="text-white">$79</span></div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="inspection_slider flame_3">
-                        <div>
-                            <div class="text-white fs-51 fw-700 lh-1 pb-4">$150 <span class="text-primary">Discount Hot Water Systems</span></div>
-                            <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
+                <div class="col-xl-6">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6 col-xl-9">
+                            <div id="inspection_slider_P">
+                                <div class="inspection_slider flame_1">
+                                    <div>
+                                        <div class="text-white fs-51 fw-700 lh-1 pb-4">$70 <span class="text-primary">Discount Online</span></div>
+                                        <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="inspection_slider flame_2">
+                                    <div>
+                                        <div class="text-secondary fs-51 fw-700 lh-1 pb-4">Blocked Drains<br> From <span class="text-white">$79</span></div>
+                                        <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="inspection_slider flame_3">
+                                    <div>
+                                        <div class="text-white fs-51 fw-700 lh-1 pb-4">$150 <span class="text-primary">Discount Hot Water Systems</span></div>
+                                        <a href="#form" class="btn btn-white d-inline-flex text-secondary rounded-pill px-5">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,7 +176,7 @@
             <div class="banner_box_1 d-xl-none">
                 <div class="cheque"><?= renderImg('cheque.png', 'icons') ?></div>
                 <div>
-                    Drain Blockages + <div class="text-secondary">CCTV For $295</div>
+                    Tap Service Repairs <span class="text-secondary">From $79*</span>
                 </div>
             </div>
             <div class="cta_wrapper d-xl-none">
@@ -441,13 +447,15 @@
                 </div>
 
                 <div class="custom_tab">
-                    <div class="tab-navigation rounded-pill my-5">
-                        <?php foreach ($services as $i => $service) : ?>
-                            <button type="button" for="<?= $service['id'] ?>" class="navi-link<?= $i == 0 ? ' active' : '' ?>">
-                                <?= !empty($service['icon']) ? $service['icon'] : renderImg('service_' . $i . '_nav.png', 'icons') ?>
-                                <?= $service['name'] ?>
-                            </button>
-                        <?php endforeach; ?>
+                    <div class="px-3 px-lg-0">
+                        <div class="tab-navigation rounded-pill my-5">
+                            <?php foreach ($services as $i => $service) : ?>
+                                <button type="button" for="<?= $service['id'] ?>" class="navi-link<?= $i == 0 ? ' active' : '' ?>">
+                                    <?= !empty($service['icon']) ? $service['icon'] : renderImg('service_' . $i . '_nav.png', 'icons') ?>
+                                    <?= $service['name'] ?>
+                                </button>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
 
                     <div class="tab-content">
@@ -473,7 +481,7 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-xl-5">
+                                    <div class="col-lg-6">
                                         <div class="service_cta">
                                             <div class="macbook_action_buttons">
                                                 <div class="red"></div>
@@ -684,7 +692,7 @@
                 </div>
                 <div class="col-lg-6 px-xl-5">
                     <div class="text-dark-grey fs-54 fw-800 lh-1"><span class="text-primary">Dedicated to<br class="d-none d-xl-block" /> providing</span> the best possible experience</div>
-                    <div class="custom_tab my-5">
+                    <div class="custom_tab my-5 px-3 px-md-0">
                         <div class="tab-navigation rounded-pill mb-5" id="newTabNavigation">
                             <button type="button" for="integrity_eco_friendliness" class="navi-link active">
                                 <svg width="21" height="19" viewBox="0 0 21 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
