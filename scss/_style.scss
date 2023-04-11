@@ -104,6 +104,33 @@ header {
             .slick-slide {
                 margin: 0 5px;
             }
+
+            .slick-dots {
+                li {
+                    height: 8px;
+                    width: 8px;
+    
+                    button {
+                        padding: 0;
+                        height: 8px;
+                        width: 8px;
+    
+                        &::before {
+                            height: 8px;
+                            background: $black;
+                            border-radius: 50%;
+                            content: "";
+                            opacity: 0.2;
+                            width: 8px;
+                            line-height: 1;
+                        }
+                    }
+    
+                    &.slick-active button::before {
+                        opacity: 0.75;
+                    }
+                }
+            }
         }
 
         .inspection_slider {
@@ -133,15 +160,6 @@ header {
                 background: imgUrl('dotted-flame-slider-2.png') center bottom $tertiary;
                 background-size: contain;
             }
-
-            // &.active {
-            //     transition: all 0.1s;
-            //     transform: scale(1);
-            // }
-
-            // &.fly {
-            //     transform: translateY(-200%);
-            // }
         }
     }
 }

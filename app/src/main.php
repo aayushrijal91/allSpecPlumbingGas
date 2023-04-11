@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-auto">
-                    <a href="./">
+                    <a href="<?= $domain ?>">
                         <?= renderImg("logo.png", "logo") ?>
                     </a>
                 </div>
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-5 text-white">
-                    <div class="d-xl-none pb-4"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
+                    <div class="d-xl-none pb-4"><a href="<?= $domain ?>"><?= renderImg('logo.png', 'logo') ?></a></div>
                     <h1 class="heading font-articulat-heavy fs-58 lh-1 fw-800">Reliable plumbing solutions, <span class="text-secondary">every time</span></h1>
                     <div class="fs-18 pb-3 d-none d-md-block">Local Melbourne plumbing experts with unbeatable rates</div>
                     <div class="row justify-content-between py-4 algin-items-center">
@@ -249,7 +249,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <form action="./src/form" method="POST">
+                <form action="<?= $domain ?>/src/form.php" method="POST">
                     <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                     <div class="row gy-3">
                         <div class="col-12">
@@ -303,7 +303,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
-                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
+                            <div class="rounded-pill bg-secondary text-black px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">Blocked Drains</span> From $79</div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
@@ -339,7 +339,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-3 px-xl-0">
-                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
+                            <div class="rounded-pill bg-secondary text-black px-4 py-3 d-inline-flex lh-1">
                                 <div><span class="fw-700">$80 Off</span> Any Roofing Work</div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
@@ -375,8 +375,8 @@
                     </div>
                     <div class="col-lg-5 order-1 order-lg-2">
                         <div class="py-5 pb-md-6 px-4 px-lg-0">
-                            <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
-                                <div>CCTV Drain Inspection<span class="fw-700">From $99</span></div>
+                            <div class="rounded-pill bg-secondary text-black px-4 py-3 d-inline-flex lh-1">
+                                <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
                             </div>
                             <div class="heading text-primary fs-54 fw-700 lh-1 pt-3">
                                 Free roof inspection<br class="d-none d-xl-block" />
@@ -407,7 +407,7 @@
             <div class="inner py-7 px-4 px-xl-8">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xl-7">
-                        <div class="rounded-pill bg-secondary text-orange px-4 py-3 d-inline-flex lh-1">
+                        <div class="rounded-pill bg-secondary text-black px-4 py-3 d-inline-flex lh-1">
                             <div>CCTV Drain Inspection <span class="fw-700">From $99</span></div>
                         </div>
                         <div class="text-primary fs-54 fw-700 lh-1 pt-3">
@@ -472,7 +472,7 @@
                                             <div class="fs-18 py-3"><?= $service['name'] ?></div>
                                             <div class="heading fs-45 fw-700 lh-1">Your One-Stop Shop for All <?= $service['name'] ?> Services</div>
                                             <div class="py-4 lh-2"><?= $service['description'] ?></div>
-                                            <form action="./src/callback" class="callback_form mt-3" method="POST">
+                                            <form action="<?= $domain ?>/src/callback.php" class="callback_form mt-3" method="POST">
                                                 <input type="hidden" name="token" id="recaptchaResponse<?= $index ?>" class="recaptchaResponse">
                                                 <div class="row align-items-center gx-2">
                                                     <div class="col">

@@ -6,7 +6,7 @@
 		</svg>
 	</div>
 </a>
-<script type="text/javascript" src="./assets/js/app.js?v=0.3"></script>
+<script type="text/javascript" src="<?= $domain ?>/assets/js/app.js?v=0.3"></script>
 </body>
 
 </html>

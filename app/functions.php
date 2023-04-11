@@ -9,6 +9,12 @@ $no_reply_email = 'info@allspecplumbing.com';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
+if (!$dev_env) {
+    $local_path = '';
+}
+
+$domain = "https://$_SERVER[HTTP_HOST]" . $local_path;
+
 $services = array(
     [
         'id' => 'service_general_plumbing',
@@ -80,11 +86,12 @@ $services = array(
 
 function renderImg($filename, $folder, $classname = "")
 {
+    global $domain;
     $filename_without_ext = preg_replace('/\\.[^.\\s]{3,4}$/', '', $filename);
-    $src = "./assets/images/" . $folder . "/" . $filename;
+    $src = $domain . "/assets/images/" . $folder . "/" . $filename;
 
-    if (file_exists("./assets/images/" . $folder . "/" . $filename_without_ext . ".webp")) {
-        $src = "./assets/images/" . $folder . "/" . $filename_without_ext . ".webp";
+    if (file_exists($domain . "/assets/images/" . $folder . "/" . $filename_without_ext . ".webp")) {
+        $src = $domain . "/assets/images/" . $folder . "/" . $filename_without_ext . ".webp";
     }
 
     return "<img src=" . $src . " alt=" . $filename_without_ext . " class='" . $classname . "'>";
